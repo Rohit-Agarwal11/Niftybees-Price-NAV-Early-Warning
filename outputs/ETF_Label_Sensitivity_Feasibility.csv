@@ -1,0 +1,16 @@
+Label_Definition,Fold,Total_Events,Train_Rows,Train_Events,Validation_Rows,Validation_Events,Test_Rows,Test_Events,Purged_Train_Rows,Purged_Validation_Rows,Feasible,Reason
+Rolling 90th percentile,Fold 1,138,238,26,243,7,242,47,1,1,True,
+Rolling 90th percentile,Fold 2,138,482,33,242,47,246,8,1,0,True,
+Rolling 90th percentile,Fold 3,138,725,80,246,8,214,50,0,0,True,
+Rolling 95th percentile,Fold 1,80,238,13,243,2,242,26,1,1,True,
+Rolling 95th percentile,Fold 2,80,482,15,242,26,246,5,1,0,True,
+Rolling 95th percentile,Fold 3,80,725,41,246,5,214,34,0,0,True,
+Rolling 97.5th percentile,Fold 1,41,238,5,243,1,242,13,1,1,True,
+Rolling 97.5th percentile,Fold 2,41,482,6,242,13,246,1,1,0,True,
+Rolling 97.5th percentile,Fold 3,41,725,19,246,1,214,21,0,0,True,
+Fixed 0.50%,Fold 1,12,238,1,243,0,242,3,1,1,False,No usable class variation in: Validation
+Fixed 0.50%,Fold 2,12,482,1,242,3,246,0,1,0,False,No usable class variation in: Test
+Fixed 0.50%,Fold 3,12,725,4,246,0,214,8,0,0,False,No usable class variation in: Validation
+Fixed 1.00%,Fold 1,2,238,1,243,0,242,1,1,1,False,No usable class variation in: Validation
+Fixed 1.00%,Fold 2,2,482,1,242,1,246,0,1,0,False,No usable class variation in: Test
+Fixed 1.00%,Fold 3,2,725,2,246,0,214,0,0,0,False,"No usable class variation in: Validation, Test"

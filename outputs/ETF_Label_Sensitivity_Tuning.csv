@@ -1,0 +1,577 @@
+Label_Definition,Fold,Model,Parameters,Validation_PR_AUC,Validation_Brier
+Rolling 90th percentile,Fold 1,Logistic Regression,C=0.01,0.13463717194194752,0.095421882071149475
+Rolling 90th percentile,Fold 1,Logistic Regression,C=0.1,0.15840324060202465,0.030937505076128601
+Rolling 90th percentile,Fold 1,Logistic Regression,C=1.0,0.17093439114510964,0.026836371157580266
+Rolling 90th percentile,Fold 1,Logistic Regression,C=10.0,0.13879542481169579,0.027563598291117656
+Rolling 90th percentile,Fold 1,Decision Tree,depth=2; leaf=10; weight=None,0.038977072310405647,0.045143830844590796
+Rolling 90th percentile,Fold 1,Decision Tree,depth=2; leaf=10; weight=balanced,0.039623750734861844,0.07952210797849367
+Rolling 90th percentile,Fold 1,Decision Tree,depth=2; leaf=25; weight=None,0.039623750734861844,0.030625083686677573
+Rolling 90th percentile,Fold 1,Decision Tree,depth=2; leaf=25; weight=balanced,0.039623750734861844,0.07799247475409371
+Rolling 90th percentile,Fold 1,Decision Tree,depth=2; leaf=50; weight=None,0.045891743486245203,0.031272207701952486
+Rolling 90th percentile,Fold 1,Decision Tree,depth=2; leaf=50; weight=balanced,0.10273186710205412,0.11226720456416035
+Rolling 90th percentile,Fold 1,Decision Tree,depth=3; leaf=10; weight=None,0.065100354191263282,0.045120039772212635
+Rolling 90th percentile,Fold 1,Decision Tree,depth=3; leaf=10; weight=balanced,0.038926343137812673,0.090732463346060832
+Rolling 90th percentile,Fold 1,Decision Tree,depth=3; leaf=25; weight=None,0.043161585621903073,0.031648934615168378
+Rolling 90th percentile,Fold 1,Decision Tree,depth=3; leaf=25; weight=balanced,0.043161585621903073,0.091689405694945922
+Rolling 90th percentile,Fold 1,Decision Tree,depth=3; leaf=50; weight=None,0.045891743486245203,0.031272207701952486
+Rolling 90th percentile,Fold 1,Decision Tree,depth=3; leaf=50; weight=balanced,0.10273186710205412,0.11226720456416035
+Rolling 90th percentile,Fold 1,Decision Tree,depth=4; leaf=10; weight=None,0.05498627282253013,0.050900684028840598
+Rolling 90th percentile,Fold 1,Decision Tree,depth=4; leaf=10; weight=balanced,0.029299652955566937,0.094389056943244232
+Rolling 90th percentile,Fold 1,Decision Tree,depth=4; leaf=25; weight=None,0.043161585621903073,0.031648934615168378
+Rolling 90th percentile,Fold 1,Decision Tree,depth=4; leaf=25; weight=balanced,0.043161585621903073,0.091689405694945922
+Rolling 90th percentile,Fold 1,Decision Tree,depth=4; leaf=50; weight=None,0.045891743486245203,0.031272207701952486
+Rolling 90th percentile,Fold 1,Decision Tree,depth=4; leaf=50; weight=balanced,0.10273186710205412,0.11226720456416035
+Rolling 90th percentile,Fold 1,Decision Tree,depth=5; leaf=10; weight=None,0.05498627282253013,0.050900684028840598
+Rolling 90th percentile,Fold 1,Decision Tree,depth=5; leaf=10; weight=balanced,0.029299652955566937,0.094389056943244232
+Rolling 90th percentile,Fold 1,Decision Tree,depth=5; leaf=25; weight=None,0.043161585621903073,0.031648934615168378
+Rolling 90th percentile,Fold 1,Decision Tree,depth=5; leaf=25; weight=balanced,0.043161585621903073,0.091689405694945922
+Rolling 90th percentile,Fold 1,Decision Tree,depth=5; leaf=50; weight=None,0.045891743486245203,0.031272207701952486
+Rolling 90th percentile,Fold 1,Decision Tree,depth=5; leaf=50; weight=balanced,0.10273186710205412,0.11226720456416035
+Rolling 90th percentile,Fold 1,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=None,0.1126480713307286,0.029245846203977712
+Rolling 90th percentile,Fold 1,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=balanced_subsample,0.098849740254947902,0.048273713786602682
+Rolling 90th percentile,Fold 1,Random Forest,depth=3; leaf=5; max_features=0.5; weight=None,0.10944362174952235,0.030160765754102724
+Rolling 90th percentile,Fold 1,Random Forest,depth=3; leaf=5; max_features=0.5; weight=balanced_subsample,0.11982467699881801,0.041679224475625935
+Rolling 90th percentile,Fold 1,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=None,0.11213504520262656,0.02834179057680462
+Rolling 90th percentile,Fold 1,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=balanced_subsample,0.10045148046348526,0.05282937568218482
+Rolling 90th percentile,Fold 1,Random Forest,depth=3; leaf=10; max_features=0.5; weight=None,0.11258082755679205,0.028508246008541325
+Rolling 90th percentile,Fold 1,Random Forest,depth=3; leaf=10; max_features=0.5; weight=balanced_subsample,0.12026398755268833,0.044955018349102698
+Rolling 90th percentile,Fold 1,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=None,0.10331099906248881,0.028444480633394869
+Rolling 90th percentile,Fold 1,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=balanced_subsample,0.098746430490852397,0.066512106810491564
+Rolling 90th percentile,Fold 1,Random Forest,depth=3; leaf=20; max_features=0.5; weight=None,0.10546658672972634,0.028076598295013213
+Rolling 90th percentile,Fold 1,Random Forest,depth=3; leaf=20; max_features=0.5; weight=balanced_subsample,0.11568116982863526,0.055263290567258302
+Rolling 90th percentile,Fold 1,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=None,0.10415813758230937,0.029490891104715027
+Rolling 90th percentile,Fold 1,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=balanced_subsample,0.11595995280506383,0.037265744553614394
+Rolling 90th percentile,Fold 1,Random Forest,depth=5; leaf=5; max_features=0.5; weight=None,0.11420399292967498,0.030599660814269642
+Rolling 90th percentile,Fold 1,Random Forest,depth=5; leaf=5; max_features=0.5; weight=balanced_subsample,0.12951399332719166,0.034785533541540459
+Rolling 90th percentile,Fold 1,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=None,0.11299782926819631,0.028449644580204003
+Rolling 90th percentile,Fold 1,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=balanced_subsample,0.10644141361110317,0.04600004810112051
+Rolling 90th percentile,Fold 1,Random Forest,depth=5; leaf=10; max_features=0.5; weight=None,0.11459768493911687,0.028515914201734643
+Rolling 90th percentile,Fold 1,Random Forest,depth=5; leaf=10; max_features=0.5; weight=balanced_subsample,0.1237465699903687,0.040941663670660058
+Rolling 90th percentile,Fold 1,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=None,0.10371341402945558,0.028441939294799275
+Rolling 90th percentile,Fold 1,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=balanced_subsample,0.098409930105578663,0.065932529368666018
+Rolling 90th percentile,Fold 1,Random Forest,depth=5; leaf=20; max_features=0.5; weight=None,0.10525285331767237,0.028093210212130893
+Rolling 90th percentile,Fold 1,Random Forest,depth=5; leaf=20; max_features=0.5; weight=balanced_subsample,0.1146603704409109,0.05499375814972219
+Rolling 90th percentile,Fold 1,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=None,0.10513045204841287,0.029781191438400856
+Rolling 90th percentile,Fold 1,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=balanced_subsample,0.11482865055573926,0.036504224913750667
+Rolling 90th percentile,Fold 1,Random Forest,depth=None; leaf=5; max_features=0.5; weight=None,0.11570972955268238,0.030449468534011735
+Rolling 90th percentile,Fold 1,Random Forest,depth=None; leaf=5; max_features=0.5; weight=balanced_subsample,0.12903799349651884,0.034120865654812607
+Rolling 90th percentile,Fold 1,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=None,0.11299782926819631,0.028457202196561768
+Rolling 90th percentile,Fold 1,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=balanced_subsample,0.10631035295372672,0.045958049017446476
+Rolling 90th percentile,Fold 1,Random Forest,depth=None; leaf=10; max_features=0.5; weight=None,0.11455506841377176,0.028524157391961052
+Rolling 90th percentile,Fold 1,Random Forest,depth=None; leaf=10; max_features=0.5; weight=balanced_subsample,0.12366769117795109,0.040937258406112495
+Rolling 90th percentile,Fold 1,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=None,0.10371341402945558,0.028441939294799275
+Rolling 90th percentile,Fold 1,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=balanced_subsample,0.098409930105578663,0.065932529368666018
+Rolling 90th percentile,Fold 1,Random Forest,depth=None; leaf=20; max_features=0.5; weight=None,0.10525285331767237,0.028093210212130893
+Rolling 90th percentile,Fold 1,Random Forest,depth=None; leaf=20; max_features=0.5; weight=balanced_subsample,0.1146603704409109,0.05499375814972219
+Rolling 90th percentile,Fold 2,Logistic Regression,C=0.01,0.36848190952426763,0.15407825364910571
+Rolling 90th percentile,Fold 2,Logistic Regression,C=0.1,0.35383833870056225,0.16168039310927221
+Rolling 90th percentile,Fold 2,Logistic Regression,C=1.0,0.32878343164055096,0.17249454209397308
+Rolling 90th percentile,Fold 2,Logistic Regression,C=10.0,0.33463394871534269,0.16451183659519275
+Rolling 90th percentile,Fold 2,Decision Tree,depth=2; leaf=10; weight=None,0.27845207017354018,0.1654604963809122
+Rolling 90th percentile,Fold 2,Decision Tree,depth=2; leaf=10; weight=balanced,0.24542420564343634,0.22345993477963522
+Rolling 90th percentile,Fold 2,Decision Tree,depth=2; leaf=25; weight=None,0.26548971338139615,0.16566158772676878
+Rolling 90th percentile,Fold 2,Decision Tree,depth=2; leaf=25; weight=balanced,0.26781123671045837,0.21176253942776938
+Rolling 90th percentile,Fold 2,Decision Tree,depth=2; leaf=50; weight=None,0.27300526681571169,0.16307854277436679
+Rolling 90th percentile,Fold 2,Decision Tree,depth=2; leaf=50; weight=balanced,0.27300526681571169,0.21761466193044518
+Rolling 90th percentile,Fold 2,Decision Tree,depth=3; leaf=10; weight=None,0.32147806264331569,0.16234423565408745
+Rolling 90th percentile,Fold 2,Decision Tree,depth=3; leaf=10; weight=balanced,0.22510499768973008,0.2386925848896434
+Rolling 90th percentile,Fold 2,Decision Tree,depth=3; leaf=25; weight=None,0.28825111412370408,0.1611287622380197
+Rolling 90th percentile,Fold 2,Decision Tree,depth=3; leaf=25; weight=balanced,0.27106794261306427,0.24837266208801326
+Rolling 90th percentile,Fold 2,Decision Tree,depth=3; leaf=50; weight=None,0.27644293166536882,0.16356399438747771
+Rolling 90th percentile,Fold 2,Decision Tree,depth=3; leaf=50; weight=balanced,0.27644293166536882,0.22903981757838537
+Rolling 90th percentile,Fold 2,Decision Tree,depth=4; leaf=10; weight=None,0.31959190609850952,0.15979557744642697
+Rolling 90th percentile,Fold 2,Decision Tree,depth=4; leaf=10; weight=balanced,0.21678898685668513,0.24491631620473867
+Rolling 90th percentile,Fold 2,Decision Tree,depth=4; leaf=25; weight=None,0.30313737636409227,0.15809665835060427
+Rolling 90th percentile,Fold 2,Decision Tree,depth=4; leaf=25; weight=balanced,0.28132660699245504,0.25150100706862066
+Rolling 90th percentile,Fold 2,Decision Tree,depth=4; leaf=50; weight=None,0.28094235760068054,0.16348099173553721
+Rolling 90th percentile,Fold 2,Decision Tree,depth=4; leaf=50; weight=balanced,0.28208961287801837,0.23028063038590948
+Rolling 90th percentile,Fold 2,Decision Tree,depth=5; leaf=10; weight=None,0.32258911475042312,0.15859690441073823
+Rolling 90th percentile,Fold 2,Decision Tree,depth=5; leaf=10; weight=balanced,0.23211320164898502,0.22807648204561895
+Rolling 90th percentile,Fold 2,Decision Tree,depth=5; leaf=25; weight=None,0.30545097280671363,0.15814537599787493
+Rolling 90th percentile,Fold 2,Decision Tree,depth=5; leaf=25; weight=balanced,0.26687382550297917,0.25172010407806333
+Rolling 90th percentile,Fold 2,Decision Tree,depth=5; leaf=50; weight=None,0.28094235760068054,0.16348099173553721
+Rolling 90th percentile,Fold 2,Decision Tree,depth=5; leaf=50; weight=balanced,0.28208961287801837,0.23028063038590948
+Rolling 90th percentile,Fold 2,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=None,0.38197527392429376,0.15731268015115851
+Rolling 90th percentile,Fold 2,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=balanced_subsample,0.39816580185779032,0.14341478414586126
+Rolling 90th percentile,Fold 2,Random Forest,depth=3; leaf=5; max_features=0.5; weight=None,0.38064263175236901,0.15726904403832839
+Rolling 90th percentile,Fold 2,Random Forest,depth=3; leaf=5; max_features=0.5; weight=balanced_subsample,0.38433711631097711,0.14495965296721289
+Rolling 90th percentile,Fold 2,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=None,0.38618200013299275,0.15709972142199144
+Rolling 90th percentile,Fold 2,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=balanced_subsample,0.40147798592628359,0.14444476688884178
+Rolling 90th percentile,Fold 2,Random Forest,depth=3; leaf=10; max_features=0.5; weight=None,0.37704860189467393,0.15822268010139387
+Rolling 90th percentile,Fold 2,Random Forest,depth=3; leaf=10; max_features=0.5; weight=balanced_subsample,0.38477780785122595,0.14550281622861311
+Rolling 90th percentile,Fold 2,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=None,0.38485331150081048,0.15836823216109486
+Rolling 90th percentile,Fold 2,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=balanced_subsample,0.38998485244644776,0.14929029779743641
+Rolling 90th percentile,Fold 2,Random Forest,depth=3; leaf=20; max_features=0.5; weight=None,0.37797426668041861,0.15872812233811159
+Rolling 90th percentile,Fold 2,Random Forest,depth=3; leaf=20; max_features=0.5; weight=balanced_subsample,0.3802649799850768,0.15027032634966636
+Rolling 90th percentile,Fold 2,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=None,0.38229156331932873,0.15490794462063129
+Rolling 90th percentile,Fold 2,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=balanced_subsample,0.38312684209245829,0.14388519847036679
+Rolling 90th percentile,Fold 2,Random Forest,depth=5; leaf=5; max_features=0.5; weight=None,0.38351531058181487,0.15550166039994295
+Rolling 90th percentile,Fold 2,Random Forest,depth=5; leaf=5; max_features=0.5; weight=balanced_subsample,0.377516338552491,0.14545512607997418
+Rolling 90th percentile,Fold 2,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=None,0.38679317320778195,0.15643183960515486
+Rolling 90th percentile,Fold 2,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=balanced_subsample,0.38304681628850279,0.14413120346083863
+Rolling 90th percentile,Fold 2,Random Forest,depth=5; leaf=10; max_features=0.5; weight=None,0.37320199437667873,0.15721812281246839
+Rolling 90th percentile,Fold 2,Random Forest,depth=5; leaf=10; max_features=0.5; weight=balanced_subsample,0.38237268731187307,0.14450471260452757
+Rolling 90th percentile,Fold 2,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=None,0.38675877437956369,0.15782406025734963
+Rolling 90th percentile,Fold 2,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=balanced_subsample,0.38767918617132091,0.14818751199700606
+Rolling 90th percentile,Fold 2,Random Forest,depth=5; leaf=20; max_features=0.5; weight=None,0.37693534186211797,0.15838556196001993
+Rolling 90th percentile,Fold 2,Random Forest,depth=5; leaf=20; max_features=0.5; weight=balanced_subsample,0.38045193567854751,0.15050547481926982
+Rolling 90th percentile,Fold 2,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=None,0.37540794156673951,0.15536581859543658
+Rolling 90th percentile,Fold 2,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=balanced_subsample,0.37831351446597095,0.14593942635923274
+Rolling 90th percentile,Fold 2,Random Forest,depth=None; leaf=5; max_features=0.5; weight=None,0.37912863491428656,0.15501177242905384
+Rolling 90th percentile,Fold 2,Random Forest,depth=None; leaf=5; max_features=0.5; weight=balanced_subsample,0.36640548145664159,0.14702495475722308
+Rolling 90th percentile,Fold 2,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=None,0.38815751234341045,0.15606796065162362
+Rolling 90th percentile,Fold 2,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=balanced_subsample,0.38612461512992591,0.14410245451039694
+Rolling 90th percentile,Fold 2,Random Forest,depth=None; leaf=10; max_features=0.5; weight=None,0.37142967429137402,0.15687496303798859
+Rolling 90th percentile,Fold 2,Random Forest,depth=None; leaf=10; max_features=0.5; weight=balanced_subsample,0.38220658011824354,0.14476907157031463
+Rolling 90th percentile,Fold 2,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=None,0.38522864933962714,0.15781436755934447
+Rolling 90th percentile,Fold 2,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=balanced_subsample,0.38754532600151481,0.14804508713243902
+Rolling 90th percentile,Fold 2,Random Forest,depth=None; leaf=20; max_features=0.5; weight=None,0.37706549638747638,0.15837507965095537
+Rolling 90th percentile,Fold 2,Random Forest,depth=None; leaf=20; max_features=0.5; weight=balanced_subsample,0.38045193567854751,0.15050158298507149
+Rolling 90th percentile,Fold 3,Logistic Regression,C=0.01,0.11200048310990295,0.096600235710277441
+Rolling 90th percentile,Fold 3,Logistic Regression,C=0.1,0.11218962209726355,0.05509851388223886
+Rolling 90th percentile,Fold 3,Logistic Regression,C=1.0,0.098809055415925842,0.048853656713733061
+Rolling 90th percentile,Fold 3,Logistic Regression,C=10.0,0.10462769605427427,0.047165246146614631
+Rolling 90th percentile,Fold 3,Decision Tree,depth=2; leaf=10; weight=None,0.068323087568027893,0.069023715709139163
+Rolling 90th percentile,Fold 3,Decision Tree,depth=2; leaf=10; weight=balanced,0.067131242740998839,0.40362757948243649
+Rolling 90th percentile,Fold 3,Decision Tree,depth=2; leaf=25; weight=None,0.068323087568027893,0.069023715709139163
+Rolling 90th percentile,Fold 3,Decision Tree,depth=2; leaf=25; weight=balanced,0.067131242740998839,0.40362757948243649
+Rolling 90th percentile,Fold 3,Decision Tree,depth=2; leaf=50; weight=None,0.041082687380735422,0.1055853162865578
+Rolling 90th percentile,Fold 3,Decision Tree,depth=2; leaf=50; weight=balanced,0.067131242740998839,0.41148153693485628
+Rolling 90th percentile,Fold 3,Decision Tree,depth=3; leaf=10; weight=None,0.069026391898873343,0.077269000627531281
+Rolling 90th percentile,Fold 3,Decision Tree,depth=3; leaf=10; weight=balanced,0.072152161862527722,0.40753505439424359
+Rolling 90th percentile,Fold 3,Decision Tree,depth=3; leaf=25; weight=None,0.060333619483235013,0.068249245617713339
+Rolling 90th percentile,Fold 3,Decision Tree,depth=3; leaf=25; weight=balanced,0.085850556438791734,0.40598561368276004
+Rolling 90th percentile,Fold 3,Decision Tree,depth=3; leaf=50; weight=None,0.040558502533685495,0.10481084619513195
+Rolling 90th percentile,Fold 3,Decision Tree,depth=3; leaf=50; weight=balanced,0.067131242740998839,0.41629016299554111
+Rolling 90th percentile,Fold 3,Decision Tree,depth=4; leaf=10; weight=None,0.072778724582996668,0.095667227558326531
+Rolling 90th percentile,Fold 3,Decision Tree,depth=4; leaf=10; weight=balanced,0.040959362361304305,0.38084837240724034
+Rolling 90th percentile,Fold 3,Decision Tree,depth=4; leaf=25; weight=None,0.058174517774589506,0.068359241920215752
+Rolling 90th percentile,Fold 3,Decision Tree,depth=4; leaf=25; weight=balanced,0.068516964951528717,0.40743003966762825
+Rolling 90th percentile,Fold 3,Decision Tree,depth=4; leaf=50; weight=None,0.040348911655080533,0.10495974951332682
+Rolling 90th percentile,Fold 3,Decision Tree,depth=4; leaf=50; weight=balanced,0.067131242740998839,0.41863272423711828
+Rolling 90th percentile,Fold 3,Decision Tree,depth=5; leaf=10; weight=None,0.055964580232664089,0.10175255165333688
+Rolling 90th percentile,Fold 3,Decision Tree,depth=5; leaf=10; weight=balanced,0.042319070569128217,0.31278361137078431
+Rolling 90th percentile,Fold 3,Decision Tree,depth=5; leaf=25; weight=None,0.058563087836760716,0.068960012276663402
+Rolling 90th percentile,Fold 3,Decision Tree,depth=5; leaf=25; weight=balanced,0.073874107808671569,0.40130158794570725
+Rolling 90th percentile,Fold 3,Decision Tree,depth=5; leaf=50; weight=None,0.040871026967976787,0.10519191647721653
+Rolling 90th percentile,Fold 3,Decision Tree,depth=5; leaf=50; weight=balanced,0.067131242740998839,0.42863138098702119
+Rolling 90th percentile,Fold 3,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=None,0.13178025218856723,0.038907426190862821
+Rolling 90th percentile,Fold 3,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=balanced_subsample,0.17575982790751113,0.15888695471588915
+Rolling 90th percentile,Fold 3,Random Forest,depth=3; leaf=5; max_features=0.5; weight=None,0.12759003811971287,0.041292552911540874
+Rolling 90th percentile,Fold 3,Random Forest,depth=3; leaf=5; max_features=0.5; weight=balanced_subsample,0.19023793619930679,0.15891201857735746
+Rolling 90th percentile,Fold 3,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=None,0.13603607354367817,0.039080795811363603
+Rolling 90th percentile,Fold 3,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=balanced_subsample,0.17365812464629315,0.16361056351688938
+Rolling 90th percentile,Fold 3,Random Forest,depth=3; leaf=10; max_features=0.5; weight=None,0.13377466636385624,0.041356900242654746
+Rolling 90th percentile,Fold 3,Random Forest,depth=3; leaf=10; max_features=0.5; weight=balanced_subsample,0.19582464340318645,0.16429347436279226
+Rolling 90th percentile,Fold 3,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=None,0.1271133709091293,0.039535213207241952
+Rolling 90th percentile,Fold 3,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=balanced_subsample,0.1729050202512622,0.17244297792577332
+Rolling 90th percentile,Fold 3,Random Forest,depth=3; leaf=20; max_features=0.5; weight=None,0.14027864711176566,0.041320111973248495
+Rolling 90th percentile,Fold 3,Random Forest,depth=3; leaf=20; max_features=0.5; weight=balanced_subsample,0.1878264589668231,0.17459952375225629
+Rolling 90th percentile,Fold 3,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=None,0.1291340336430061,0.040560441170601633
+Rolling 90th percentile,Fold 3,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=balanced_subsample,0.16151492397246472,0.11583901664281386
+Rolling 90th percentile,Fold 3,Random Forest,depth=5; leaf=5; max_features=0.5; weight=None,0.12331388468969806,0.041804846397003041
+Rolling 90th percentile,Fold 3,Random Forest,depth=5; leaf=5; max_features=0.5; weight=balanced_subsample,0.16485243987937515,0.11230956561346328
+Rolling 90th percentile,Fold 3,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=None,0.1362764844669582,0.041112729077286456
+Rolling 90th percentile,Fold 3,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=balanced_subsample,0.16338968778947749,0.12978917893524081
+Rolling 90th percentile,Fold 3,Random Forest,depth=5; leaf=10; max_features=0.5; weight=None,0.15294960307253311,0.041750188140729137
+Rolling 90th percentile,Fold 3,Random Forest,depth=5; leaf=10; max_features=0.5; weight=balanced_subsample,0.17821514678631331,0.1245115943534166
+Rolling 90th percentile,Fold 3,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=None,0.12808547183547184,0.04057975312782823
+Rolling 90th percentile,Fold 3,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=balanced_subsample,0.18180953369309533,0.15602289117109491
+Rolling 90th percentile,Fold 3,Random Forest,depth=5; leaf=20; max_features=0.5; weight=None,0.13634555735672582,0.042549074720841608
+Rolling 90th percentile,Fold 3,Random Forest,depth=5; leaf=20; max_features=0.5; weight=balanced_subsample,0.17911913329274834,0.15371991147914751
+Rolling 90th percentile,Fold 3,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=None,0.11983117374988733,0.045435573899691106
+Rolling 90th percentile,Fold 3,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=balanced_subsample,0.13733940533288183,0.077328268397418187
+Rolling 90th percentile,Fold 3,Random Forest,depth=None; leaf=5; max_features=0.5; weight=None,0.10092230583608416,0.046377361366264018
+Rolling 90th percentile,Fold 3,Random Forest,depth=None; leaf=5; max_features=0.5; weight=balanced_subsample,0.16829894718497412,0.077026188514798602
+Rolling 90th percentile,Fold 3,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=None,0.13273136581601835,0.043041780453157506
+Rolling 90th percentile,Fold 3,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=balanced_subsample,0.15961527507580139,0.11171827064553588
+Rolling 90th percentile,Fold 3,Random Forest,depth=None; leaf=10; max_features=0.5; weight=None,0.13033525275197508,0.044064084871777001
+Rolling 90th percentile,Fold 3,Random Forest,depth=None; leaf=10; max_features=0.5; weight=balanced_subsample,0.15538604866426492,0.10646078422891808
+Rolling 90th percentile,Fold 3,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=None,0.13137288218680371,0.041696090936032625
+Rolling 90th percentile,Fold 3,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=balanced_subsample,0.1740265531340211,0.14744743452830289
+Rolling 90th percentile,Fold 3,Random Forest,depth=None; leaf=20; max_features=0.5; weight=None,0.13682344387989551,0.042707699153192079
+Rolling 90th percentile,Fold 3,Random Forest,depth=None; leaf=20; max_features=0.5; weight=balanced_subsample,0.17581928818520279,0.1479968540725615
+Rolling 95th percentile,Fold 1,Logistic Regression,C=0.01,0.041150990099009903,0.091682718201466312
+Rolling 95th percentile,Fold 1,Logistic Regression,C=0.1,0.02601330913490623,0.014783508608638163
+Rolling 95th percentile,Fold 1,Logistic Regression,C=1.0,0.020913770913770911,0.0087506100398091115
+Rolling 95th percentile,Fold 1,Logistic Regression,C=10.0,0.026950117174422496,0.0087445005571816226
+Rolling 95th percentile,Fold 1,Decision Tree,depth=2; leaf=10; weight=None,0.021972369194591418,0.008588001788985054
+Rolling 95th percentile,Fold 1,Decision Tree,depth=2; leaf=10; weight=balanced,0.066615226337448555,0.050177639429164651
+Rolling 95th percentile,Fold 1,Decision Tree,depth=2; leaf=25; weight=None,0.021972369194591418,0.008588001788985054
+Rolling 95th percentile,Fold 1,Decision Tree,depth=2; leaf=25; weight=balanced,0.03575268817204301,0.14087285980974831
+Rolling 95th percentile,Fold 1,Decision Tree,depth=2; leaf=50; weight=None,0.028609831029185868,0.010296325327875397
+Rolling 95th percentile,Fold 1,Decision Tree,depth=2; leaf=50; weight=balanced,0.028609831029185868,0.13883680685771113
+Rolling 95th percentile,Fold 1,Decision Tree,depth=3; leaf=10; weight=None,0.00823045267489712,0.013033181682258959
+Rolling 95th percentile,Fold 1,Decision Tree,depth=3; leaf=10; weight=balanced,0.075543797766019979,0.057843845819896808
+Rolling 95th percentile,Fold 1,Decision Tree,depth=3; leaf=25; weight=None,0.021972369194591418,0.0092707818930041139
+Rolling 95th percentile,Fold 1,Decision Tree,depth=3; leaf=25; weight=balanced,0.028609831029185868,0.14156021878879779
+Rolling 95th percentile,Fold 1,Decision Tree,depth=3; leaf=50; weight=None,0.028609831029185868,0.010296325327875397
+Rolling 95th percentile,Fold 1,Decision Tree,depth=3; leaf=50; weight=balanced,0.028609831029185868,0.13883680685771113
+Rolling 95th percentile,Fold 1,Decision Tree,depth=4; leaf=10; weight=None,0.00823045267489712,0.013033181682258959
+Rolling 95th percentile,Fold 1,Decision Tree,depth=4; leaf=10; weight=balanced,0.066615226337448555,0.059307039236871611
+Rolling 95th percentile,Fold 1,Decision Tree,depth=4; leaf=25; weight=None,0.021972369194591418,0.0092707818930041139
+Rolling 95th percentile,Fold 1,Decision Tree,depth=4; leaf=25; weight=balanced,0.028609831029185868,0.14156021878879779
+Rolling 95th percentile,Fold 1,Decision Tree,depth=4; leaf=50; weight=None,0.028609831029185868,0.010296325327875397
+Rolling 95th percentile,Fold 1,Decision Tree,depth=4; leaf=50; weight=balanced,0.028609831029185868,0.13883680685771113
+Rolling 95th percentile,Fold 1,Decision Tree,depth=5; leaf=10; weight=None,0.00823045267489712,0.013033181682258959
+Rolling 95th percentile,Fold 1,Decision Tree,depth=5; leaf=10; weight=balanced,0.066615226337448555,0.059307039236871611
+Rolling 95th percentile,Fold 1,Decision Tree,depth=5; leaf=25; weight=None,0.021972369194591418,0.0092707818930041139
+Rolling 95th percentile,Fold 1,Decision Tree,depth=5; leaf=25; weight=balanced,0.028609831029185868,0.14156021878879779
+Rolling 95th percentile,Fold 1,Decision Tree,depth=5; leaf=50; weight=None,0.028609831029185868,0.010296325327875397
+Rolling 95th percentile,Fold 1,Decision Tree,depth=5; leaf=50; weight=balanced,0.028609831029185868,0.13883680685771113
+Rolling 95th percentile,Fold 1,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=None,0.061924982307147908,0.0086848051620060807
+Rolling 95th percentile,Fold 1,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=balanced_subsample,0.042182890855457227,0.023477065968793436
+Rolling 95th percentile,Fold 1,Random Forest,depth=3; leaf=5; max_features=0.5; weight=None,0.061472715318869164,0.0087847746100265418
+Rolling 95th percentile,Fold 1,Random Forest,depth=3; leaf=5; max_features=0.5; weight=balanced_subsample,0.046936114732724903,0.019749691293762771
+Rolling 95th percentile,Fold 1,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=None,0.076636904761904753,0.008549340534348587
+Rolling 95th percentile,Fold 1,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=balanced_subsample,0.049796747967479675,0.02740751378591931
+Rolling 95th percentile,Fold 1,Random Forest,depth=3; leaf=10; max_features=0.5; weight=None,0.07683397683397683,0.00863344826769262
+Rolling 95th percentile,Fold 1,Random Forest,depth=3; leaf=10; max_features=0.5; weight=balanced_subsample,0.049214226633581479,0.022751571856258489
+Rolling 95th percentile,Fold 1,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=None,0.079428571428571432,0.0086381546102022207
+Rolling 95th percentile,Fold 1,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=balanced_subsample,0.051975945017182126,0.043163593201293191
+Rolling 95th percentile,Fold 1,Random Forest,depth=3; leaf=20; max_features=0.5; weight=None,0.073369565217391297,0.0085696180976463452
+Rolling 95th percentile,Fold 1,Random Forest,depth=3; leaf=20; max_features=0.5; weight=balanced_subsample,0.056565656565656569,0.037125930423519242
+Rolling 95th percentile,Fold 1,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=None,0.06157965194109772,0.0088449026664385866
+Rolling 95th percentile,Fold 1,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=balanced_subsample,0.037422839506172839,0.015609852894082406
+Rolling 95th percentile,Fold 1,Random Forest,depth=5; leaf=5; max_features=0.5; weight=None,0.078139980824544583,0.0089330955842219454
+Rolling 95th percentile,Fold 1,Random Forest,depth=5; leaf=5; max_features=0.5; weight=balanced_subsample,0.048659673659673656,0.014732057133725763
+Rolling 95th percentile,Fold 1,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=None,0.076863354037267073,0.0086021442894758972
+Rolling 95th percentile,Fold 1,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=balanced_subsample,0.046274038461538464,0.023052048707854763
+Rolling 95th percentile,Fold 1,Random Forest,depth=5; leaf=10; max_features=0.5; weight=None,0.067602040816326536,0.0086882953443033258
+Rolling 95th percentile,Fold 1,Random Forest,depth=5; leaf=10; max_features=0.5; weight=balanced_subsample,0.045423023578363378,0.019492807840127881
+Rolling 95th percentile,Fold 1,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=None,0.079428571428571432,0.0086255173186359155
+Rolling 95th percentile,Fold 1,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=balanced_subsample,0.052083333333333329,0.042460242958551983
+Rolling 95th percentile,Fold 1,Random Forest,depth=5; leaf=20; max_features=0.5; weight=None,0.073252688172043015,0.0085702475486062104
+Rolling 95th percentile,Fold 1,Random Forest,depth=5; leaf=20; max_features=0.5; weight=balanced_subsample,0.056565656565656569,0.03681028666272728
+Rolling 95th percentile,Fold 1,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=None,0.061507936507936505,0.0088457548752960986
+Rolling 95th percentile,Fold 1,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=balanced_subsample,0.034730913642052566,0.014434585674229334
+Rolling 95th percentile,Fold 1,Random Forest,depth=None; leaf=5; max_features=0.5; weight=None,0.07800751879699247,0.0089479292231234384
+Rolling 95th percentile,Fold 1,Random Forest,depth=None; leaf=5; max_features=0.5; weight=balanced_subsample,0.039544513457556933,0.013922076608851681
+Rolling 95th percentile,Fold 1,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=None,0.076719576719576715,0.008603335767876235
+Rolling 95th percentile,Fold 1,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=balanced_subsample,0.04603729603729604,0.022862432664601938
+Rolling 95th percentile,Fold 1,Random Forest,depth=None; leaf=10; max_features=0.5; weight=None,0.067602040816326536,0.0086882953443033258
+Rolling 95th percentile,Fold 1,Random Forest,depth=None; leaf=10; max_features=0.5; weight=balanced_subsample,0.045423023578363378,0.01934974113388847
+Rolling 95th percentile,Fold 1,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=None,0.079428571428571432,0.0086255173186359155
+Rolling 95th percentile,Fold 1,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=balanced_subsample,0.052083333333333329,0.042460242958551983
+Rolling 95th percentile,Fold 1,Random Forest,depth=None; leaf=20; max_features=0.5; weight=None,0.073252688172043015,0.0085702475486062087
+Rolling 95th percentile,Fold 1,Random Forest,depth=None; leaf=20; max_features=0.5; weight=balanced_subsample,0.056565656565656569,0.036810286662727273
+Rolling 95th percentile,Fold 2,Logistic Regression,C=0.01,0.21153656361785461,0.11857723417208182
+Rolling 95th percentile,Fold 2,Logistic Regression,C=0.1,0.19432329833021034,0.09915786422278268
+Rolling 95th percentile,Fold 2,Logistic Regression,C=1.0,0.19770318900154737,0.10434743371638466
+Rolling 95th percentile,Fold 2,Logistic Regression,C=10.0,0.26670236337456271,0.099803373891922412
+Rolling 95th percentile,Fold 2,Decision Tree,depth=2; leaf=10; weight=None,0.14437499517713423,0.10289318259348232
+Rolling 95th percentile,Fold 2,Decision Tree,depth=2; leaf=10; weight=balanced,0.13476109395175589,0.19947976103967421
+Rolling 95th percentile,Fold 2,Decision Tree,depth=2; leaf=25; weight=None,0.15102753225920382,0.10115956044495007
+Rolling 95th percentile,Fold 2,Decision Tree,depth=2; leaf=25; weight=balanced,0.19355455150909695,0.16160742262517303
+Rolling 95th percentile,Fold 2,Decision Tree,depth=2; leaf=50; weight=None,0.195130500812319,0.09438571529562402
+Rolling 95th percentile,Fold 2,Decision Tree,depth=2; leaf=50; weight=balanced,0.20034521937149127,0.21899914021985553
+Rolling 95th percentile,Fold 2,Decision Tree,depth=3; leaf=10; weight=None,0.15564623853536133,0.10366693939451413
+Rolling 95th percentile,Fold 2,Decision Tree,depth=3; leaf=10; weight=balanced,0.15715621790796616,0.1639188714407499
+Rolling 95th percentile,Fold 2,Decision Tree,depth=3; leaf=25; weight=None,0.14938878480127979,0.10132594117668765
+Rolling 95th percentile,Fold 2,Decision Tree,depth=3; leaf=25; weight=balanced,0.19365715251461507,0.19273908911561369
+Rolling 95th percentile,Fold 2,Decision Tree,depth=3; leaf=50; weight=None,0.195130500812319,0.094590730348572502
+Rolling 95th percentile,Fold 2,Decision Tree,depth=3; leaf=50; weight=balanced,0.20115518921815836,0.21684391499545283
+Rolling 95th percentile,Fold 2,Decision Tree,depth=4; leaf=10; weight=None,0.11806110556110556,0.10545622684317324
+Rolling 95th percentile,Fold 2,Decision Tree,depth=4; leaf=10; weight=balanced,0.14156713042202554,0.15900361732550961
+Rolling 95th percentile,Fold 2,Decision Tree,depth=4; leaf=25; weight=None,0.17106504606504608,0.099952971800940246
+Rolling 95th percentile,Fold 2,Decision Tree,depth=4; leaf=25; weight=balanced,0.19365715251461507,0.19273908911561369
+Rolling 95th percentile,Fold 2,Decision Tree,depth=4; leaf=50; weight=None,0.195130500812319,0.094590730348572502
+Rolling 95th percentile,Fold 2,Decision Tree,depth=4; leaf=50; weight=balanced,0.20115518921815836,0.21684391499545283
+Rolling 95th percentile,Fold 2,Decision Tree,depth=5; leaf=10; weight=None,0.11806110556110556,0.10545622684317324
+Rolling 95th percentile,Fold 2,Decision Tree,depth=5; leaf=10; weight=balanced,0.12760367974271719,0.1607305931176839
+Rolling 95th percentile,Fold 2,Decision Tree,depth=5; leaf=25; weight=None,0.17106504606504608,0.099952971800940246
+Rolling 95th percentile,Fold 2,Decision Tree,depth=5; leaf=25; weight=balanced,0.19365715251461507,0.19273908911561369
+Rolling 95th percentile,Fold 2,Decision Tree,depth=5; leaf=50; weight=None,0.195130500812319,0.094590730348572502
+Rolling 95th percentile,Fold 2,Decision Tree,depth=5; leaf=50; weight=balanced,0.20115518921815836,0.21684391499545283
+Rolling 95th percentile,Fold 2,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=None,0.27603291285707804,0.095426625847729041
+Rolling 95th percentile,Fold 2,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=balanced_subsample,0.28011644546223091,0.09331257213874633
+Rolling 95th percentile,Fold 2,Random Forest,depth=3; leaf=5; max_features=0.5; weight=None,0.24541059409880681,0.09652430713244145
+Rolling 95th percentile,Fold 2,Random Forest,depth=3; leaf=5; max_features=0.5; weight=balanced_subsample,0.26070041774036251,0.093248753055188663
+Rolling 95th percentile,Fold 2,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=None,0.25793027467536217,0.096075598770565512
+Rolling 95th percentile,Fold 2,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=balanced_subsample,0.27825479705687683,0.095373918754040846
+Rolling 95th percentile,Fold 2,Random Forest,depth=3; leaf=10; max_features=0.5; weight=None,0.25203128383924839,0.095982989822947382
+Rolling 95th percentile,Fold 2,Random Forest,depth=3; leaf=10; max_features=0.5; weight=balanced_subsample,0.26721085293942098,0.093907006205502644
+Rolling 95th percentile,Fold 2,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=None,0.2531269411149254,0.096399249338584958
+Rolling 95th percentile,Fold 2,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=balanced_subsample,0.26009491105735649,0.10060026674828897
+Rolling 95th percentile,Fold 2,Random Forest,depth=3; leaf=20; max_features=0.5; weight=None,0.25591176902218549,0.096437816348488012
+Rolling 95th percentile,Fold 2,Random Forest,depth=3; leaf=20; max_features=0.5; weight=balanced_subsample,0.25466564996404184,0.099756677012451403
+Rolling 95th percentile,Fold 2,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=None,0.25961540697955432,0.094869635479047421
+Rolling 95th percentile,Fold 2,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=balanced_subsample,0.25633271877152869,0.090985856857488098
+Rolling 95th percentile,Fold 2,Random Forest,depth=5; leaf=5; max_features=0.5; weight=None,0.23403451256145691,0.095987986203605963
+Rolling 95th percentile,Fold 2,Random Forest,depth=5; leaf=5; max_features=0.5; weight=balanced_subsample,0.25942056574329342,0.091324366574457819
+Rolling 95th percentile,Fold 2,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=None,0.25484298313527004,0.095801865323641808
+Rolling 95th percentile,Fold 2,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=balanced_subsample,0.24505293243139017,0.093662137448297975
+Rolling 95th percentile,Fold 2,Random Forest,depth=5; leaf=10; max_features=0.5; weight=None,0.24017240631657222,0.09596665622004602
+Rolling 95th percentile,Fold 2,Random Forest,depth=5; leaf=10; max_features=0.5; weight=balanced_subsample,0.2500319865718631,0.092784183050447139
+Rolling 95th percentile,Fold 2,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=None,0.25460065619210026,0.096412485753193208
+Rolling 95th percentile,Fold 2,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=balanced_subsample,0.25523878886952339,0.098781355975267965
+Rolling 95th percentile,Fold 2,Random Forest,depth=5; leaf=20; max_features=0.5; weight=None,0.25557908600184481,0.096416240640894033
+Rolling 95th percentile,Fold 2,Random Forest,depth=5; leaf=20; max_features=0.5; weight=balanced_subsample,0.2569003495845909,0.099097272678174073
+Rolling 95th percentile,Fold 2,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=None,0.26045742557639096,0.095299848969248119
+Rolling 95th percentile,Fold 2,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=balanced_subsample,0.26253221934557724,0.091246803847650645
+Rolling 95th percentile,Fold 2,Random Forest,depth=None; leaf=5; max_features=0.5; weight=None,0.23169389004982285,0.096191331011654238
+Rolling 95th percentile,Fold 2,Random Forest,depth=None; leaf=5; max_features=0.5; weight=balanced_subsample,0.24415747309814775,0.092341535186427057
+Rolling 95th percentile,Fold 2,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=None,0.25335959520153417,0.095756195717398268
+Rolling 95th percentile,Fold 2,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=balanced_subsample,0.24407332662277806,0.093595286122668847
+Rolling 95th percentile,Fold 2,Random Forest,depth=None; leaf=10; max_features=0.5; weight=None,0.24155474623369236,0.095956088407359572
+Rolling 95th percentile,Fold 2,Random Forest,depth=None; leaf=10; max_features=0.5; weight=balanced_subsample,0.24287837862508807,0.092716244067667805
+Rolling 95th percentile,Fold 2,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=None,0.25460065619210026,0.096408152925932397
+Rolling 95th percentile,Fold 2,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=balanced_subsample,0.25666941323292525,0.098722274697456175
+Rolling 95th percentile,Fold 2,Random Forest,depth=None; leaf=20; max_features=0.5; weight=None,0.25557908600184481,0.096416240640894033
+Rolling 95th percentile,Fold 2,Random Forest,depth=None; leaf=20; max_features=0.5; weight=balanced_subsample,0.25369522137946271,0.099065857962251883
+Rolling 95th percentile,Fold 3,Logistic Regression,C=0.01,0.12708093763821318,0.070044893914745734
+Rolling 95th percentile,Fold 3,Logistic Regression,C=0.1,0.13381120495270118,0.028286921028067777
+Rolling 95th percentile,Fold 3,Logistic Regression,C=1.0,0.12724089635854341,0.024181823668063082
+Rolling 95th percentile,Fold 3,Logistic Regression,C=10.0,0.10538891326605236,0.022833279809975092
+Rolling 95th percentile,Fold 3,Decision Tree,depth=2; leaf=10; weight=None,0.11626016260162603,0.018824677375365296
+Rolling 95th percentile,Fold 3,Decision Tree,depth=2; leaf=10; weight=balanced,0.078911564625850333,0.09532839661165958
+Rolling 95th percentile,Fold 3,Decision Tree,depth=2; leaf=25; weight=None,0.11626016260162603,0.018837921935630296
+Rolling 95th percentile,Fold 3,Decision Tree,depth=2; leaf=25; weight=balanced,0.069586426299045601,0.092810870868972231
+Rolling 95th percentile,Fold 3,Decision Tree,depth=2; leaf=50; weight=None,0.056260162601626029,0.019775481026237923
+Rolling 95th percentile,Fold 3,Decision Tree,depth=2; leaf=50; weight=balanced,0.077195121951219525,0.070687690842907477
+Rolling 95th percentile,Fold 3,Decision Tree,depth=3; leaf=10; weight=None,0.11626016260162603,0.020633178404472149
+Rolling 95th percentile,Fold 3,Decision Tree,depth=3; leaf=10; weight=balanced,0.074004207174938885,0.091203727802201942
+Rolling 95th percentile,Fold 3,Decision Tree,depth=3; leaf=25; weight=None,0.11626016260162603,0.019036856985175071
+Rolling 95th percentile,Fold 3,Decision Tree,depth=3; leaf=25; weight=balanced,0.11760052735662492,0.080249894217652773
+Rolling 95th percentile,Fold 3,Decision Tree,depth=3; leaf=50; weight=None,0.065098347757671135,0.019936568914274637
+Rolling 95th percentile,Fold 3,Decision Tree,depth=3; leaf=50; weight=balanced,0.065239357386271443,0.076590439782362185
+Rolling 95th percentile,Fold 3,Decision Tree,depth=4; leaf=10; weight=None,0.11626016260162603,0.022533031348098809
+Rolling 95th percentile,Fold 3,Decision Tree,depth=4; leaf=10; weight=balanced,0.12149744753261486,0.089712902733667985
+Rolling 95th percentile,Fold 3,Decision Tree,depth=4; leaf=25; weight=None,0.12195121951219512,0.019005010436856238
+Rolling 95th percentile,Fold 3,Decision Tree,depth=4; leaf=25; weight=balanced,0.12128603104212861,0.08323397732172981
+Rolling 95th percentile,Fold 3,Decision Tree,depth=4; leaf=50; weight=None,0.065171238141747384,0.02116360713353781
+Rolling 95th percentile,Fold 3,Decision Tree,depth=4; leaf=50; weight=balanced,0.084064271129515492,0.083309475539155312
+Rolling 95th percentile,Fold 3,Decision Tree,depth=5; leaf=10; weight=None,0.11626016260162603,0.023614689761421014
+Rolling 95th percentile,Fold 3,Decision Tree,depth=5; leaf=10; weight=balanced,0.12195121951219512,0.096834879845325628
+Rolling 95th percentile,Fold 3,Decision Tree,depth=5; leaf=25; weight=None,0.1341540507551329,0.019110859852103406
+Rolling 95th percentile,Fold 3,Decision Tree,depth=5; leaf=25; weight=balanced,0.12330623306233063,0.089827218050118257
+Rolling 95th percentile,Fold 3,Decision Tree,depth=5; leaf=50; weight=None,0.065868102253245644,0.021086833362443141
+Rolling 95th percentile,Fold 3,Decision Tree,depth=5; leaf=50; weight=balanced,0.077018506937206133,0.09330175050161392
+Rolling 95th percentile,Fold 3,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=None,0.11791421139247227,0.021473184961589873
+Rolling 95th percentile,Fold 3,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=balanced_subsample,0.20136192407997683,0.08071746855988858
+Rolling 95th percentile,Fold 3,Random Forest,depth=3; leaf=5; max_features=0.5; weight=None,0.13583629971434849,0.021432514035228303
+Rolling 95th percentile,Fold 3,Random Forest,depth=3; leaf=5; max_features=0.5; weight=balanced_subsample,0.1465597147950089,0.06688397432332889
+Rolling 95th percentile,Fold 3,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=None,0.13774101921470344,0.020616376568495947
+Rolling 95th percentile,Fold 3,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=balanced_subsample,0.16152315998863315,0.086410360318414925
+Rolling 95th percentile,Fold 3,Random Forest,depth=3; leaf=10; max_features=0.5; weight=None,0.168298017771702,0.020337608914304899
+Rolling 95th percentile,Fold 3,Random Forest,depth=3; leaf=10; max_features=0.5; weight=balanced_subsample,0.18266266931585434,0.069547614286734144
+Rolling 95th percentile,Fold 3,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=None,0.14640759584058555,0.020899153433368369
+Rolling 95th percentile,Fold 3,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=balanced_subsample,0.16190463308625946,0.093623163297239714
+Rolling 95th percentile,Fold 3,Random Forest,depth=3; leaf=20; max_features=0.5; weight=None,0.17219687035580031,0.020832024256042476
+Rolling 95th percentile,Fold 3,Random Forest,depth=3; leaf=20; max_features=0.5; weight=balanced_subsample,0.18381679334678863,0.078209879965624368
+Rolling 95th percentile,Fold 3,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=None,0.16220925988244869,0.021231470917692848
+Rolling 95th percentile,Fold 3,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=balanced_subsample,0.19961511843368385,0.042816440522109082
+Rolling 95th percentile,Fold 3,Random Forest,depth=5; leaf=5; max_features=0.5; weight=None,0.13296402482843162,0.021577533475495864
+Rolling 95th percentile,Fold 3,Random Forest,depth=5; leaf=5; max_features=0.5; weight=balanced_subsample,0.27613814756671901,0.037311104076727768
+Rolling 95th percentile,Fold 3,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=None,0.15993115411720063,0.020870109094301009
+Rolling 95th percentile,Fold 3,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=balanced_subsample,0.18097098509568746,0.053242413332119445
+Rolling 95th percentile,Fold 3,Random Forest,depth=5; leaf=10; max_features=0.5; weight=None,0.16179444811632518,0.020671626482612344
+Rolling 95th percentile,Fold 3,Random Forest,depth=5; leaf=10; max_features=0.5; weight=balanced_subsample,0.17542007356248843,0.044661411163911695
+Rolling 95th percentile,Fold 3,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=None,0.15260269865067469,0.021102040549555008
+Rolling 95th percentile,Fold 3,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=balanced_subsample,0.16795482295482295,0.07514911844871297
+Rolling 95th percentile,Fold 3,Random Forest,depth=5; leaf=20; max_features=0.5; weight=None,0.16619469688835092,0.021016819091679701
+Rolling 95th percentile,Fold 3,Random Forest,depth=5; leaf=20; max_features=0.5; weight=balanced_subsample,0.17787499322383044,0.061169600936631437
+Rolling 95th percentile,Fold 3,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=None,0.16175369458128078,0.021863583684997266
+Rolling 95th percentile,Fold 3,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=balanced_subsample,0.27605386416861827,0.028933386815622499
+Rolling 95th percentile,Fold 3,Random Forest,depth=None; leaf=5; max_features=0.5; weight=None,0.1385065012765247,0.02231468312290346
+Rolling 95th percentile,Fold 3,Random Forest,depth=None; leaf=5; max_features=0.5; weight=balanced_subsample,0.26445550482406227,0.026766823036148656
+Rolling 95th percentile,Fold 3,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=None,0.15486906846155718,0.021315582354352616
+Rolling 95th percentile,Fold 3,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=balanced_subsample,0.17444611801711885,0.046509654836245667
+Rolling 95th percentile,Fold 3,Random Forest,depth=None; leaf=10; max_features=0.5; weight=None,0.162001554001554,0.020846492102051407
+Rolling 95th percentile,Fold 3,Random Forest,depth=None; leaf=10; max_features=0.5; weight=balanced_subsample,0.16990665068468272,0.039367109657509614
+Rolling 95th percentile,Fold 3,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=None,0.150158081082304,0.021195850470630665
+Rolling 95th percentile,Fold 3,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=balanced_subsample,0.20030439735702893,0.07408146088321739
+Rolling 95th percentile,Fold 3,Random Forest,depth=None; leaf=20; max_features=0.5; weight=None,0.16639017916390181,0.021051269583265815
+Rolling 95th percentile,Fold 3,Random Forest,depth=None; leaf=20; max_features=0.5; weight=balanced_subsample,0.17807718851197113,0.05993857901034385
+Rolling 97.5th percentile,Fold 1,Logistic Regression,C=0.01,0.055555555555555552,0.09454934192468531
+Rolling 97.5th percentile,Fold 1,Logistic Regression,C=0.1,0.0090090090090090089,0.01114277832019378
+Rolling 97.5th percentile,Fold 1,Logistic Regression,C=1.0,0.0049504950495049506,0.0044152112283934028
+Rolling 97.5th percentile,Fold 1,Logistic Regression,C=10.0,0.0046296296296296294,0.0041602100609454302
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=2; leaf=10; weight=None,0.00411522633744856,0.00411522633744856
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=2; leaf=10; weight=balanced,0.00411522633744856,0.0072727186014790992
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=2; leaf=25; weight=None,0.00411522633744856,0.0046210128495842778
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=2; leaf=25; weight=balanced,0.00411522633744856,0.0072727186014790992
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=2; leaf=50; weight=None,0.00411522633744856,0.0044609053497942372
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=2; leaf=50; weight=balanced,0.00411522633744856,0.16830624216520687
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=3; leaf=10; weight=None,0.00411522633744856,0.00411522633744856
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=3; leaf=10; weight=balanced,0.00411522633744856,0.0075242156354488185
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=3; leaf=25; weight=None,0.00411522633744856,0.0046210128495842778
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=3; leaf=25; weight=balanced,0.00411522633744856,0.0072727186014790992
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=3; leaf=50; weight=None,0.00411522633744856,0.0044609053497942372
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=3; leaf=50; weight=balanced,0.00411522633744856,0.16830624216520687
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=4; leaf=10; weight=None,0.00411522633744856,0.00411522633744856
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=4; leaf=10; weight=balanced,0.00411522633744856,0.0063245092241396034
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=4; leaf=25; weight=None,0.00411522633744856,0.0046210128495842778
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=4; leaf=25; weight=balanced,0.00411522633744856,0.0072727186014790992
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=4; leaf=50; weight=None,0.00411522633744856,0.0044609053497942372
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=4; leaf=50; weight=balanced,0.00411522633744856,0.16830624216520687
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=5; leaf=10; weight=None,0.00411522633744856,0.00411522633744856
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=5; leaf=10; weight=balanced,0.00411522633744856,0.0063245092241396034
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=5; leaf=25; weight=None,0.00411522633744856,0.0046210128495842778
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=5; leaf=25; weight=balanced,0.00411522633744856,0.0072727186014790992
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=5; leaf=50; weight=None,0.00411522633744856,0.0044609053497942372
+Rolling 97.5th percentile,Fold 1,Decision Tree,depth=5; leaf=50; weight=balanced,0.00411522633744856,0.16830624216520687
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=None,0.027777777777777776,0.0042606863855516276
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=balanced_subsample,0.025000000000000001,0.0067580613851626961
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=3; leaf=5; max_features=0.5; weight=None,0.020408163265306121,0.004427044433964032
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=3; leaf=5; max_features=0.5; weight=balanced_subsample,0.014925373134328358,0.0055714324339298377
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=None,0.1111111111111111,0.0040990386627720223
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=balanced_subsample,0.040000000000000001,0.0098119020050803467
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=3; leaf=10; max_features=0.5; weight=None,0.083333333333333329,0.004145636863166019
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=3; leaf=10; max_features=0.5; weight=balanced_subsample,0.043478260869565216,0.0074852088505426781
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=None,0.076923076923076927,0.0041172516720051162
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=balanced_subsample,0.035714285714285712,0.017521261759623027
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=3; leaf=20; max_features=0.5; weight=None,0.090909090909090912,0.0041335934367001462
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=3; leaf=20; max_features=0.5; weight=balanced_subsample,0.033333333333333333,0.0120965469455309
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=None,0.030303030303030304,0.0042588866012709488
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=balanced_subsample,0.021276595744680851,0.0061599883542660461
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=5; leaf=5; max_features=0.5; weight=None,0.018518518518518517,0.0044405580710640659
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=5; leaf=5; max_features=0.5; weight=balanced_subsample,0.014925373134328358,0.0053949877675158265
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=None,0.1111111111111111,0.0041031009614071051
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=balanced_subsample,0.040000000000000001,0.009655718853486794
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=5; leaf=10; max_features=0.5; weight=None,0.083333333333333329,0.0041459613104975557
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=5; leaf=10; max_features=0.5; weight=balanced_subsample,0.043478260869565216,0.007436588560136838
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=None,0.076923076923076927,0.0041172516720051162
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=balanced_subsample,0.035714285714285712,0.017521261759623027
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=5; leaf=20; max_features=0.5; weight=None,0.090909090909090912,0.0041335934367001462
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=5; leaf=20; max_features=0.5; weight=balanced_subsample,0.033333333333333333,0.012096546945530898
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=None,0.030303030303030304,0.0042600319270854042
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=balanced_subsample,0.021739130434782608,0.0061346961511440914
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=None; leaf=5; max_features=0.5; weight=None,0.018518518518518517,0.0044405580710640659
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=None; leaf=5; max_features=0.5; weight=balanced_subsample,0.014925373134328358,0.0053939255691528411
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=None,0.1111111111111111,0.0041031009614071051
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=balanced_subsample,0.040000000000000001,0.009655718853486794
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=None; leaf=10; max_features=0.5; weight=None,0.083333333333333329,0.0041459613104975557
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=None; leaf=10; max_features=0.5; weight=balanced_subsample,0.043478260869565216,0.007436588560136838
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=None,0.076923076923076927,0.0041172516720051162
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=balanced_subsample,0.035714285714285712,0.017521261759623027
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=None; leaf=20; max_features=0.5; weight=None,0.090909090909090912,0.0041335934367001462
+Rolling 97.5th percentile,Fold 1,Random Forest,depth=None; leaf=20; max_features=0.5; weight=balanced_subsample,0.033333333333333333,0.0120965469455309
+Rolling 97.5th percentile,Fold 2,Logistic Regression,C=0.01,0.1690785129455834,0.090975538949114212
+Rolling 97.5th percentile,Fold 2,Logistic Regression,C=0.1,0.15561225975022633,0.054746278627950631
+Rolling 97.5th percentile,Fold 2,Logistic Regression,C=1.0,0.13003402286445687,0.056447686671712835
+Rolling 97.5th percentile,Fold 2,Logistic Regression,C=10.0,0.16955186303529726,0.062275625101286793
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=2; leaf=10; weight=None,0.10331902945539309,0.049575181061506865
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=2; leaf=10; weight=balanced,0.1704204886023068,0.0739280778557109
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=2; leaf=25; weight=None,0.2167273286154405,0.046260986187106903
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=2; leaf=25; weight=balanced,0.1704204886023068,0.074902958883938317
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=2; leaf=50; weight=None,0.15753457520181363,0.048982796424354859
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=2; leaf=50; weight=balanced,0.15753457520181363,0.16965577119722774
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=3; leaf=10; weight=None,0.098699874100943621,0.050119375573921023
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=3; leaf=10; weight=balanced,0.16026700572155117,0.068890726427296767
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=3; leaf=25; weight=None,0.2167273286154405,0.046260986187106903
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=3; leaf=25; weight=balanced,0.1704204886023068,0.074902958883938317
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=3; leaf=50; weight=None,0.15753457520181363,0.048982796424354859
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=3; leaf=50; weight=balanced,0.15753457520181363,0.16965577119722774
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=4; leaf=10; weight=None,0.098699874100943621,0.050119375573921023
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=4; leaf=10; weight=balanced,0.19103623649078194,0.06840244122718539
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=4; leaf=25; weight=None,0.2167273286154405,0.046260986187106903
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=4; leaf=25; weight=balanced,0.1704204886023068,0.074902958883938317
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=4; leaf=50; weight=None,0.15753457520181363,0.048982796424354859
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=4; leaf=50; weight=balanced,0.15753457520181363,0.16965577119722774
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=5; leaf=10; weight=None,0.098699874100943621,0.050119375573921023
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=5; leaf=10; weight=balanced,0.19103623649078194,0.06840244122718539
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=5; leaf=25; weight=None,0.2167273286154405,0.046260986187106903
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=5; leaf=25; weight=balanced,0.1704204886023068,0.074902958883938317
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=5; leaf=50; weight=None,0.15753457520181363,0.048982796424354859
+Rolling 97.5th percentile,Fold 2,Decision Tree,depth=5; leaf=50; weight=balanced,0.15753457520181363,0.16965577119722774
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=None,0.31202768869050895,0.04753774337932648
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=balanced_subsample,0.36047532517454184,0.045792688350367781
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=3; leaf=5; max_features=0.5; weight=None,0.30751560948494405,0.04722227988402803
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=3; leaf=5; max_features=0.5; weight=balanced_subsample,0.35281300104731039,0.045184204784167209
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=None,0.27270479977397244,0.048336113108597957
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=balanced_subsample,0.36926377017435424,0.048483411048273577
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=3; leaf=10; max_features=0.5; weight=None,0.23732011151762877,0.04803805212690572
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=3; leaf=10; max_features=0.5; weight=balanced_subsample,0.351960152550849,0.048414381039404167
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=None,0.29757684508633697,0.049122004895143255
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=balanced_subsample,0.32075932176364502,0.056173362498311501
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=3; leaf=20; max_features=0.5; weight=None,0.26351858224300168,0.048595666889097354
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=3; leaf=20; max_features=0.5; weight=balanced_subsample,0.32983723322766695,0.055469232543695707
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=None,0.31758332138258277,0.047702478513074846
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=balanced_subsample,0.38029780441987249,0.043743637589984327
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=5; leaf=5; max_features=0.5; weight=None,0.33286247940094094,0.047025758366945308
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=5; leaf=5; max_features=0.5; weight=balanced_subsample,0.35436074142122004,0.043887055918934902
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=None,0.27511011000072572,0.048278208311628976
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=balanced_subsample,0.37556099919451774,0.046986762145126384
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=5; leaf=10; max_features=0.5; weight=None,0.24485727257220688,0.048046107105526523
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=5; leaf=10; max_features=0.5; weight=balanced_subsample,0.35318077245533325,0.047267733575280045
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=None,0.29790867012404432,0.049119464292567458
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=balanced_subsample,0.33457187750297057,0.055633281644731199
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=5; leaf=20; max_features=0.5; weight=None,0.26351858224300168,0.048595666889097354
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=5; leaf=20; max_features=0.5; weight=balanced_subsample,0.32921730017637946,0.055021821045199842
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=None,0.31778671467701125,0.047701025553826625
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=balanced_subsample,0.37729737313168227,0.043722882344183596
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=None; leaf=5; max_features=0.5; weight=None,0.33286247940094094,0.04702618063241621
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=None; leaf=5; max_features=0.5; weight=balanced_subsample,0.35615750974438365,0.043803964996733363
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=None,0.27511011000072572,0.04827622105614527
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=balanced_subsample,0.37405611188247989,0.046968231935283142
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=None; leaf=10; max_features=0.5; weight=None,0.24485727257220688,0.04804610710552653
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=None; leaf=10; max_features=0.5; weight=balanced_subsample,0.35318077245533325,0.047192552908061958
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=None,0.29790867012404432,0.049119464292567458
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=balanced_subsample,0.33457187750297057,0.055633281644731199
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=None; leaf=20; max_features=0.5; weight=None,0.26351858224300168,0.048595666889097354
+Rolling 97.5th percentile,Fold 2,Random Forest,depth=None; leaf=20; max_features=0.5; weight=balanced_subsample,0.32921730017637946,0.055021821045199842
+Rolling 97.5th percentile,Fold 3,Logistic Regression,C=0.01,0.125,0.051634831434049643
+Rolling 97.5th percentile,Fold 3,Logistic Regression,C=0.1,0.16666666666666666,0.0096268448895226975
+Rolling 97.5th percentile,Fold 3,Logistic Regression,C=1.0,0.14285714285714285,0.007051681951132322
+Rolling 97.5th percentile,Fold 3,Logistic Regression,C=10.0,0.125,0.0081390037956817363
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=2; leaf=10; weight=None,0.5,0.002676659326484043
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=2; leaf=10; weight=balanced,0.20000000000000001,0.037683505641208238
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=2; leaf=25; weight=None,0.5,0.0024673088374243687
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=2; leaf=25; weight=balanced,0.5,0.030900699088849251
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=2; leaf=50; weight=None,0.33333333333333331,0.0029632432039022102
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=2; leaf=50; weight=balanced,0.20000000000000001,0.036906763234372024
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=3; leaf=10; weight=None,1,0.0011085269812904576
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=3; leaf=10; weight=balanced,0.5,0.025022558076924828
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=3; leaf=25; weight=None,0.5,0.002478155710977576
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=3; leaf=25; weight=balanced,0.5,0.1573835011202605
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=3; leaf=50; weight=None,0.33333333333333331,0.0030935019548975731
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=3; leaf=50; weight=balanced,0.20000000000000001,0.041549596267826269
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=4; leaf=10; weight=None,1,0.0010972379506714025
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=4; leaf=10; weight=balanced,0.16666666666666666,0.015275993480403205
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=4; leaf=25; weight=None,0.5,0.0032435656900947712
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=4; leaf=25; weight=balanced,0.5,0.1573835011202605
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=4; leaf=50; weight=None,0.33333333333333331,0.0030935019548975731
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=4; leaf=50; weight=balanced,0.20000000000000001,0.041549596267826269
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=5; leaf=10; weight=None,1,0.0011014686005118609
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=5; leaf=10; weight=balanced,0.16666666666666666,0.016199537705071935
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=5; leaf=25; weight=None,0.5,0.0032435656900947712
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=5; leaf=25; weight=balanced,0.5,0.1573835011202605
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=5; leaf=50; weight=None,0.33333333333333331,0.0030935019548975731
+Rolling 97.5th percentile,Fold 3,Decision Tree,depth=5; leaf=50; weight=balanced,0.20000000000000001,0.041549596267826269
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=None,0.125,0.0050923699276976195
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=balanced_subsample,0.5,0.018104938609217514
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=3; leaf=5; max_features=0.5; weight=None,0.1111111111111111,0.005107028489963009
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=3; leaf=5; max_features=0.5; weight=balanced_subsample,0.5,0.01033330268925985
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=None,0.33333333333333331,0.0044429611320458973
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=balanced_subsample,0.5,0.020531590226981016
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=3; leaf=10; max_features=0.5; weight=None,0.33333333333333331,0.004205969423730283
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=3; leaf=10; max_features=0.5; weight=balanced_subsample,0.5,0.011881566377959478
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=None,0.33333333333333331,0.0042622011723881595
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=balanced_subsample,0.5,0.026906686409089289
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=3; leaf=20; max_features=0.5; weight=None,0.33333333333333331,0.004012946889184273
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=3; leaf=20; max_features=0.5; weight=balanced_subsample,0.5,0.01558831267778981
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=None,0.33333333333333331,0.0050420711580314165
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=balanced_subsample,0.5,0.0072126796262678844
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=5; leaf=5; max_features=0.5; weight=None,0.1111111111111111,0.0052205250949928046
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=5; leaf=5; max_features=0.5; weight=balanced_subsample,0.5,0.0053866628207560946
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=None,0.33333333333333331,0.0043621126252135038
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=balanced_subsample,0.5,0.011388108369804546
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=5; leaf=10; max_features=0.5; weight=None,0.33333333333333331,0.0042003884566727111
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=5; leaf=10; max_features=0.5; weight=balanced_subsample,0.5,0.007982232615586754
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=None,0.33333333333333331,0.0042703661983141744
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=balanced_subsample,0.5,0.021087322494407132
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=5; leaf=20; max_features=0.5; weight=None,0.33333333333333331,0.0040590654270089652
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=5; leaf=20; max_features=0.5; weight=balanced_subsample,0.5,0.013961252257510428
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=None,0.33333333333333331,0.0051753325124188343
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=balanced_subsample,1,0.0052224980758501993
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=None; leaf=5; max_features=0.5; weight=None,0.125,0.0051478087211326139
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=None; leaf=5; max_features=0.5; weight=balanced_subsample,0.5,0.0046797172422088779
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=None,0.33333333333333331,0.0043751361799005519
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=balanced_subsample,0.5,0.010376586467477579
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=None; leaf=10; max_features=0.5; weight=None,0.33333333333333331,0.0042026505827010147
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=None; leaf=10; max_features=0.5; weight=balanced_subsample,0.5,0.0076350333035885487
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=None,0.33333333333333331,0.0042679141379099728
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=balanced_subsample,0.5,0.021043028560773308
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=None; leaf=20; max_features=0.5; weight=None,0.33333333333333331,0.0040556754794364722
+Rolling 97.5th percentile,Fold 3,Random Forest,depth=None; leaf=20; max_features=0.5; weight=balanced_subsample,0.5,0.013952686391919475

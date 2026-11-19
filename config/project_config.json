@@ -1,0 +1,20 @@
+{
+  "security": "NIFTYBEES",
+  "series": "EQ",
+  "amfi_scheme_code": "140084",
+  "study_start": "2021-01-01",
+  "study_end": "2026-11-16",
+  "history_window_complete_observations": 252,
+  "abnormal_event_quantile": 0.95,
+  "forecast_horizon_trading_days": 1,
+  "train_target_end": "2024-12-31",
+  "validation_target_end": "2025-12-31",
+  "test_target_start": "2026-01-01",
+  "alert_budget": 0.10,
+  "alert_budget_sensitivity": [0.05, 0.10, 0.20],
+  "rolling_label_quantiles": [0.90, 0.95, 0.975],
+  "fixed_label_thresholds_pct": [0.50, 1.00],
+  "bootstrap_resamples": 2000,
+  "bootstrap_block_lengths": [5, 10],
+  "random_seed": 42
+}

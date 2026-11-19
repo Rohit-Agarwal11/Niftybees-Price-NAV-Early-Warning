@@ -1,0 +1,193 @@
+Fold,Model,Parameters,Validation_PR_AUC,Validation_Brier
+Fold 1,Logistic Regression,C=0.01,0.041150990099009903,0.091682718200897989
+Fold 1,Logistic Regression,C=0.1,0.02601330913490623,0.014783508610721197
+Fold 1,Logistic Regression,C=1.0,0.020913770913770911,0.0087506100412112417
+Fold 1,Logistic Regression,C=10.0,0.026950117174422496,0.0087445006267359657
+Fold 1,Decision Tree,depth=2; leaf=10; weight=None,0.021972369194591418,0.008588001788985054
+Fold 1,Decision Tree,depth=2; leaf=10; weight=balanced,0.066615226337448555,0.050177639429164651
+Fold 1,Decision Tree,depth=2; leaf=25; weight=None,0.021972369194591418,0.008588001788985054
+Fold 1,Decision Tree,depth=2; leaf=25; weight=balanced,0.03575268817204301,0.14087285980974831
+Fold 1,Decision Tree,depth=2; leaf=50; weight=None,0.028609831029185868,0.010296325327875397
+Fold 1,Decision Tree,depth=2; leaf=50; weight=balanced,0.028609831029185868,0.13883680685771113
+Fold 1,Decision Tree,depth=3; leaf=10; weight=None,0.00823045267489712,0.013033181682258959
+Fold 1,Decision Tree,depth=3; leaf=10; weight=balanced,0.075543797766019979,0.057843845819896808
+Fold 1,Decision Tree,depth=3; leaf=25; weight=None,0.021972369194591418,0.0092707818930041139
+Fold 1,Decision Tree,depth=3; leaf=25; weight=balanced,0.028609831029185868,0.14156021878879779
+Fold 1,Decision Tree,depth=3; leaf=50; weight=None,0.028609831029185868,0.010296325327875397
+Fold 1,Decision Tree,depth=3; leaf=50; weight=balanced,0.028609831029185868,0.13883680685771113
+Fold 1,Decision Tree,depth=4; leaf=10; weight=None,0.00823045267489712,0.013033181682258959
+Fold 1,Decision Tree,depth=4; leaf=10; weight=balanced,0.066615226337448555,0.059307039236871611
+Fold 1,Decision Tree,depth=4; leaf=25; weight=None,0.021972369194591418,0.0092707818930041139
+Fold 1,Decision Tree,depth=4; leaf=25; weight=balanced,0.028609831029185868,0.14156021878879779
+Fold 1,Decision Tree,depth=4; leaf=50; weight=None,0.028609831029185868,0.010296325327875397
+Fold 1,Decision Tree,depth=4; leaf=50; weight=balanced,0.028609831029185868,0.13883680685771113
+Fold 1,Decision Tree,depth=5; leaf=10; weight=None,0.00823045267489712,0.013033181682258959
+Fold 1,Decision Tree,depth=5; leaf=10; weight=balanced,0.066615226337448555,0.059307039236871611
+Fold 1,Decision Tree,depth=5; leaf=25; weight=None,0.021972369194591418,0.0092707818930041139
+Fold 1,Decision Tree,depth=5; leaf=25; weight=balanced,0.028609831029185868,0.14156021878879779
+Fold 1,Decision Tree,depth=5; leaf=50; weight=None,0.028609831029185868,0.010296325327875397
+Fold 1,Decision Tree,depth=5; leaf=50; weight=balanced,0.028609831029185868,0.13883680685771113
+Fold 1,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=None,0.061924982307147908,0.0086848051620060807
+Fold 1,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=balanced_subsample,0.042182890855457227,0.023477065968793436
+Fold 1,Random Forest,depth=3; leaf=5; max_features=0.5; weight=None,0.061472715318869164,0.0087847746100265418
+Fold 1,Random Forest,depth=3; leaf=5; max_features=0.5; weight=balanced_subsample,0.046936114732724903,0.019749691293762771
+Fold 1,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=None,0.076636904761904753,0.008549340534348587
+Fold 1,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=balanced_subsample,0.049796747967479675,0.02740751378591931
+Fold 1,Random Forest,depth=3; leaf=10; max_features=0.5; weight=None,0.07683397683397683,0.00863344826769262
+Fold 1,Random Forest,depth=3; leaf=10; max_features=0.5; weight=balanced_subsample,0.049214226633581479,0.022751571856258489
+Fold 1,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=None,0.079428571428571432,0.0086381546102022207
+Fold 1,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=balanced_subsample,0.051975945017182126,0.043163593201293197
+Fold 1,Random Forest,depth=3; leaf=20; max_features=0.5; weight=None,0.073369565217391297,0.0085696180976463469
+Fold 1,Random Forest,depth=3; leaf=20; max_features=0.5; weight=balanced_subsample,0.056565656565656569,0.037125930423519242
+Fold 1,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=None,0.06157965194109772,0.0088449026664385866
+Fold 1,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=balanced_subsample,0.037422839506172839,0.015609852894082406
+Fold 1,Random Forest,depth=5; leaf=5; max_features=0.5; weight=None,0.078139980824544583,0.0089330955842219454
+Fold 1,Random Forest,depth=5; leaf=5; max_features=0.5; weight=balanced_subsample,0.048659673659673656,0.014732057133725763
+Fold 1,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=None,0.076863354037267073,0.0086021442894758972
+Fold 1,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=balanced_subsample,0.046274038461538464,0.023052048707854763
+Fold 1,Random Forest,depth=5; leaf=10; max_features=0.5; weight=None,0.067602040816326536,0.0086882953443033258
+Fold 1,Random Forest,depth=5; leaf=10; max_features=0.5; weight=balanced_subsample,0.045423023578363378,0.019492807840127881
+Fold 1,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=None,0.079428571428571432,0.0086255173186359155
+Fold 1,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=balanced_subsample,0.052083333333333329,0.042460242958551983
+Fold 1,Random Forest,depth=5; leaf=20; max_features=0.5; weight=None,0.073252688172043015,0.0085702475486062087
+Fold 1,Random Forest,depth=5; leaf=20; max_features=0.5; weight=balanced_subsample,0.056565656565656569,0.036810286662727273
+Fold 1,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=None,0.061507936507936505,0.0088457548752960986
+Fold 1,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=balanced_subsample,0.034730913642052566,0.014434585674229334
+Fold 1,Random Forest,depth=None; leaf=5; max_features=0.5; weight=None,0.07800751879699247,0.0089479292231234384
+Fold 1,Random Forest,depth=None; leaf=5; max_features=0.5; weight=balanced_subsample,0.039544513457556933,0.013922076608851681
+Fold 1,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=None,0.076719576719576715,0.008603335767876235
+Fold 1,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=balanced_subsample,0.04603729603729604,0.022862432664601938
+Fold 1,Random Forest,depth=None; leaf=10; max_features=0.5; weight=None,0.067602040816326536,0.0086882953443033258
+Fold 1,Random Forest,depth=None; leaf=10; max_features=0.5; weight=balanced_subsample,0.045423023578363378,0.019349741133888473
+Fold 1,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=None,0.079428571428571432,0.0086255173186359155
+Fold 1,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=balanced_subsample,0.052083333333333329,0.042460242958551976
+Fold 1,Random Forest,depth=None; leaf=20; max_features=0.5; weight=None,0.073252688172043015,0.0085702475486062104
+Fold 1,Random Forest,depth=None; leaf=20; max_features=0.5; weight=balanced_subsample,0.056565656565656569,0.03681028666272728
+Fold 2,Logistic Regression,C=0.01,0.21153656361785461,0.11857723416911296
+Fold 2,Logistic Regression,C=0.1,0.19432329833021034,0.099157864213409164
+Fold 2,Logistic Regression,C=1.0,0.19770318900154737,0.10434743366659752
+Fold 2,Logistic Regression,C=10.0,0.26670236337456271,0.099803373562672937
+Fold 2,Decision Tree,depth=2; leaf=10; weight=None,0.14437499517713423,0.10289318259348232
+Fold 2,Decision Tree,depth=2; leaf=10; weight=balanced,0.13476109395175589,0.19947976103967421
+Fold 2,Decision Tree,depth=2; leaf=25; weight=None,0.15102753225920382,0.10115956044495007
+Fold 2,Decision Tree,depth=2; leaf=25; weight=balanced,0.19355455150909695,0.16160742262517303
+Fold 2,Decision Tree,depth=2; leaf=50; weight=None,0.195130500812319,0.09438571529562402
+Fold 2,Decision Tree,depth=2; leaf=50; weight=balanced,0.20034521937149127,0.21899914021985553
+Fold 2,Decision Tree,depth=3; leaf=10; weight=None,0.15564623853536133,0.10366693939451413
+Fold 2,Decision Tree,depth=3; leaf=10; weight=balanced,0.15715621790796616,0.1639188714407499
+Fold 2,Decision Tree,depth=3; leaf=25; weight=None,0.14938878480127979,0.10132594117668765
+Fold 2,Decision Tree,depth=3; leaf=25; weight=balanced,0.19365715251461507,0.19273908911561369
+Fold 2,Decision Tree,depth=3; leaf=50; weight=None,0.195130500812319,0.094590730348572502
+Fold 2,Decision Tree,depth=3; leaf=50; weight=balanced,0.20115518921815836,0.21684391499545283
+Fold 2,Decision Tree,depth=4; leaf=10; weight=None,0.11806110556110556,0.10545622684317324
+Fold 2,Decision Tree,depth=4; leaf=10; weight=balanced,0.14156713042202554,0.15900361732550961
+Fold 2,Decision Tree,depth=4; leaf=25; weight=None,0.17106504606504608,0.099952971800940246
+Fold 2,Decision Tree,depth=4; leaf=25; weight=balanced,0.19365715251461507,0.19273908911561369
+Fold 2,Decision Tree,depth=4; leaf=50; weight=None,0.195130500812319,0.094590730348572502
+Fold 2,Decision Tree,depth=4; leaf=50; weight=balanced,0.20115518921815836,0.21684391499545283
+Fold 2,Decision Tree,depth=5; leaf=10; weight=None,0.11806110556110556,0.10545622684317324
+Fold 2,Decision Tree,depth=5; leaf=10; weight=balanced,0.12760367974271719,0.1607305931176839
+Fold 2,Decision Tree,depth=5; leaf=25; weight=None,0.17106504606504608,0.099952971800940246
+Fold 2,Decision Tree,depth=5; leaf=25; weight=balanced,0.19365715251461507,0.19273908911561369
+Fold 2,Decision Tree,depth=5; leaf=50; weight=None,0.195130500812319,0.094590730348572502
+Fold 2,Decision Tree,depth=5; leaf=50; weight=balanced,0.20115518921815836,0.21684391499545283
+Fold 2,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=None,0.27603291285707804,0.095426625847729041
+Fold 2,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=balanced_subsample,0.28011644546223091,0.093312572138746316
+Fold 2,Random Forest,depth=3; leaf=5; max_features=0.5; weight=None,0.24541059409880681,0.09652430713244145
+Fold 2,Random Forest,depth=3; leaf=5; max_features=0.5; weight=balanced_subsample,0.26070041774036251,0.093248753055188663
+Fold 2,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=None,0.25793027467536217,0.096075598770565512
+Fold 2,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=balanced_subsample,0.27825479705687683,0.095373918754040846
+Fold 2,Random Forest,depth=3; leaf=10; max_features=0.5; weight=None,0.25203128383924839,0.095982989822947382
+Fold 2,Random Forest,depth=3; leaf=10; max_features=0.5; weight=balanced_subsample,0.26721085293942098,0.093907006205502644
+Fold 2,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=None,0.2531269411149254,0.096399249338584958
+Fold 2,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=balanced_subsample,0.26009491105735649,0.10060026674828898
+Fold 2,Random Forest,depth=3; leaf=20; max_features=0.5; weight=None,0.25591176902218549,0.096437816348488012
+Fold 2,Random Forest,depth=3; leaf=20; max_features=0.5; weight=balanced_subsample,0.25466564996404184,0.099756677012451403
+Fold 2,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=None,0.25961540697955432,0.094869635479047421
+Fold 2,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=balanced_subsample,0.25633271877152869,0.090985856857488098
+Fold 2,Random Forest,depth=5; leaf=5; max_features=0.5; weight=None,0.23403451256145691,0.095987986203605963
+Fold 2,Random Forest,depth=5; leaf=5; max_features=0.5; weight=balanced_subsample,0.25942056574329342,0.091324366574457819
+Fold 2,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=None,0.25484298313527004,0.095801865323641808
+Fold 2,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=balanced_subsample,0.24505293243139017,0.093662137448297975
+Fold 2,Random Forest,depth=5; leaf=10; max_features=0.5; weight=None,0.24017240631657222,0.09596665622004602
+Fold 2,Random Forest,depth=5; leaf=10; max_features=0.5; weight=balanced_subsample,0.2500319865718631,0.092784183050447139
+Fold 2,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=None,0.25460065619210026,0.096412485753193208
+Fold 2,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=balanced_subsample,0.25523878886952339,0.098781355975267965
+Fold 2,Random Forest,depth=5; leaf=20; max_features=0.5; weight=None,0.25557908600184481,0.096416240640894033
+Fold 2,Random Forest,depth=5; leaf=20; max_features=0.5; weight=balanced_subsample,0.2569003495845909,0.099097272678174086
+Fold 2,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=None,0.26045742557639096,0.095299848969248119
+Fold 2,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=balanced_subsample,0.26253221934557724,0.091246803847650632
+Fold 2,Random Forest,depth=None; leaf=5; max_features=0.5; weight=None,0.23169389004982285,0.096191331011654238
+Fold 2,Random Forest,depth=None; leaf=5; max_features=0.5; weight=balanced_subsample,0.24415747309814775,0.092341535186427057
+Fold 2,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=None,0.25335959520153417,0.095756195717398268
+Fold 2,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=balanced_subsample,0.24407332662277806,0.093595286122668847
+Fold 2,Random Forest,depth=None; leaf=10; max_features=0.5; weight=None,0.24155474623369236,0.095956088407359572
+Fold 2,Random Forest,depth=None; leaf=10; max_features=0.5; weight=balanced_subsample,0.24287837862508807,0.092716244067667791
+Fold 2,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=None,0.25460065619210026,0.096408152925932397
+Fold 2,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=balanced_subsample,0.25666941323292525,0.098722274697456217
+Fold 2,Random Forest,depth=None; leaf=20; max_features=0.5; weight=None,0.25557908600184481,0.096416240640894033
+Fold 2,Random Forest,depth=None; leaf=20; max_features=0.5; weight=balanced_subsample,0.25369522137946271,0.099065857962251883
+Fold 3,Logistic Regression,C=0.01,0.12708093763821318,0.070044893909990691
+Fold 3,Logistic Regression,C=0.1,0.13381120495270118,0.028286921016903662
+Fold 3,Logistic Regression,C=1.0,0.12724089635854341,0.024181823618814203
+Fold 3,Logistic Regression,C=10.0,0.10538891326605236,0.022833277129117719
+Fold 3,Decision Tree,depth=2; leaf=10; weight=None,0.11626016260162603,0.018824677375365296
+Fold 3,Decision Tree,depth=2; leaf=10; weight=balanced,0.078911564625850333,0.09532839661165958
+Fold 3,Decision Tree,depth=2; leaf=25; weight=None,0.11626016260162603,0.018837921935630296
+Fold 3,Decision Tree,depth=2; leaf=25; weight=balanced,0.069586426299045601,0.092810870868972231
+Fold 3,Decision Tree,depth=2; leaf=50; weight=None,0.056260162601626029,0.019775481026237923
+Fold 3,Decision Tree,depth=2; leaf=50; weight=balanced,0.077195121951219525,0.070687690842907477
+Fold 3,Decision Tree,depth=3; leaf=10; weight=None,0.11626016260162603,0.020633178404472149
+Fold 3,Decision Tree,depth=3; leaf=10; weight=balanced,0.074004207174938885,0.091203727802201942
+Fold 3,Decision Tree,depth=3; leaf=25; weight=None,0.11626016260162603,0.019036856985175071
+Fold 3,Decision Tree,depth=3; leaf=25; weight=balanced,0.11760052735662492,0.080249894217652773
+Fold 3,Decision Tree,depth=3; leaf=50; weight=None,0.065098347757671135,0.019936568914274637
+Fold 3,Decision Tree,depth=3; leaf=50; weight=balanced,0.065239357386271443,0.076590439782362185
+Fold 3,Decision Tree,depth=4; leaf=10; weight=None,0.11626016260162603,0.022533031348098809
+Fold 3,Decision Tree,depth=4; leaf=10; weight=balanced,0.12149744753261486,0.089712902733667985
+Fold 3,Decision Tree,depth=4; leaf=25; weight=None,0.12195121951219512,0.019005010436856238
+Fold 3,Decision Tree,depth=4; leaf=25; weight=balanced,0.12128603104212861,0.08323397732172981
+Fold 3,Decision Tree,depth=4; leaf=50; weight=None,0.065171238141747384,0.02116360713353781
+Fold 3,Decision Tree,depth=4; leaf=50; weight=balanced,0.084064271129515492,0.083309475539155312
+Fold 3,Decision Tree,depth=5; leaf=10; weight=None,0.11626016260162603,0.023614689761421014
+Fold 3,Decision Tree,depth=5; leaf=10; weight=balanced,0.12195121951219512,0.096834879845325628
+Fold 3,Decision Tree,depth=5; leaf=25; weight=None,0.1341540507551329,0.019110859852103406
+Fold 3,Decision Tree,depth=5; leaf=25; weight=balanced,0.12330623306233063,0.089827218050118257
+Fold 3,Decision Tree,depth=5; leaf=50; weight=None,0.065868102253245644,0.021086833362443141
+Fold 3,Decision Tree,depth=5; leaf=50; weight=balanced,0.077018506937206133,0.09330175050161392
+Fold 3,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=None,0.11791421139247227,0.02147318496158987
+Fold 3,Random Forest,depth=3; leaf=5; max_features=sqrt; weight=balanced_subsample,0.20136192407997683,0.08071746855988858
+Fold 3,Random Forest,depth=3; leaf=5; max_features=0.5; weight=None,0.13583629971434849,0.021432514035228303
+Fold 3,Random Forest,depth=3; leaf=5; max_features=0.5; weight=balanced_subsample,0.1465597147950089,0.06688397432332889
+Fold 3,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=None,0.13774101921470344,0.020616376568495947
+Fold 3,Random Forest,depth=3; leaf=10; max_features=sqrt; weight=balanced_subsample,0.16152315998863315,0.086410360318414925
+Fold 3,Random Forest,depth=3; leaf=10; max_features=0.5; weight=None,0.168298017771702,0.020337608914304903
+Fold 3,Random Forest,depth=3; leaf=10; max_features=0.5; weight=balanced_subsample,0.18266266931585434,0.069547614286734144
+Fold 3,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=None,0.14640759584058555,0.020899153433368369
+Fold 3,Random Forest,depth=3; leaf=20; max_features=sqrt; weight=balanced_subsample,0.16190463308625946,0.0936231632972397
+Fold 3,Random Forest,depth=3; leaf=20; max_features=0.5; weight=None,0.17219687035580031,0.020832024256042473
+Fold 3,Random Forest,depth=3; leaf=20; max_features=0.5; weight=balanced_subsample,0.18381679334678863,0.078209879965624368
+Fold 3,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=None,0.16220925988244869,0.021231470917692848
+Fold 3,Random Forest,depth=5; leaf=5; max_features=sqrt; weight=balanced_subsample,0.19961511843368385,0.042816440522109082
+Fold 3,Random Forest,depth=5; leaf=5; max_features=0.5; weight=None,0.13296402482843162,0.021577533475495868
+Fold 3,Random Forest,depth=5; leaf=5; max_features=0.5; weight=balanced_subsample,0.27613814756671901,0.037311104076727768
+Fold 3,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=None,0.15993115411720063,0.020870109094301013
+Fold 3,Random Forest,depth=5; leaf=10; max_features=sqrt; weight=balanced_subsample,0.18097098509568746,0.053242413332119445
+Fold 3,Random Forest,depth=5; leaf=10; max_features=0.5; weight=None,0.16179444811632518,0.020671626482612348
+Fold 3,Random Forest,depth=5; leaf=10; max_features=0.5; weight=balanced_subsample,0.17542007356248843,0.044661411163911695
+Fold 3,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=None,0.15260269865067469,0.021102040549555008
+Fold 3,Random Forest,depth=5; leaf=20; max_features=sqrt; weight=balanced_subsample,0.16795482295482295,0.07514911844871297
+Fold 3,Random Forest,depth=5; leaf=20; max_features=0.5; weight=None,0.16619469688835092,0.021016819091679701
+Fold 3,Random Forest,depth=5; leaf=20; max_features=0.5; weight=balanced_subsample,0.17787499322383044,0.061169600936631437
+Fold 3,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=None,0.16175369458128078,0.021863583684997266
+Fold 3,Random Forest,depth=None; leaf=5; max_features=sqrt; weight=balanced_subsample,0.27605386416861827,0.028933386815622499
+Fold 3,Random Forest,depth=None; leaf=5; max_features=0.5; weight=None,0.1385065012765247,0.022314683122903457
+Fold 3,Random Forest,depth=None; leaf=5; max_features=0.5; weight=balanced_subsample,0.26445550482406227,0.026766823036148656
+Fold 3,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=None,0.15486906846155718,0.021315582354352616
+Fold 3,Random Forest,depth=None; leaf=10; max_features=sqrt; weight=balanced_subsample,0.17444611801711885,0.046509654836245667
+Fold 3,Random Forest,depth=None; leaf=10; max_features=0.5; weight=None,0.162001554001554,0.020846492102051407
+Fold 3,Random Forest,depth=None; leaf=10; max_features=0.5; weight=balanced_subsample,0.16990665068468272,0.03936710965750962
+Fold 3,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=None,0.150158081082304,0.021195850470630665
+Fold 3,Random Forest,depth=None; leaf=20; max_features=sqrt; weight=balanced_subsample,0.20030439735702893,0.07408146088321739
+Fold 3,Random Forest,depth=None; leaf=20; max_features=0.5; weight=None,0.16639017916390181,0.021051269583265815
+Fold 3,Random Forest,depth=None; leaf=20; max_features=0.5; weight=balanced_subsample,0.17807718851197113,0.05993857901034385

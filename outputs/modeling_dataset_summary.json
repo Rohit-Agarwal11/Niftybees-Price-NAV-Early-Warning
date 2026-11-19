@@ -1,0 +1,65 @@
+{
+  "input_rows": 1456,
+  "complete_rows": 1446,
+  "model_rows_after_purge": 1185,
+  "first_prediction_date": "2022-01-11",
+  "last_prediction_date": "2026-11-13",
+  "first_target_date": "2022-01-12",
+  "last_target_date": "2026-11-16",
+  "primary_events": 80,
+  "primary_event_rate_pct": 6.751054852320674,
+  "purged_boundary_rows": 2,
+  "all_checks_passed": true,
+  "split_summary": [
+    {
+      "Chronological_Split": "Train",
+      "Observations": "725",
+      "First_Prediction_Date": "2022-01-11",
+      "Last_Prediction_Date": "2024-12-27",
+      "First_Target_Date": "2022-01-12",
+      "Last_Target_Date": "2024-12-30",
+      "Abnormal_Events": "41",
+      "Above_0_50_Pct": "4",
+      "Above_1_00_Pct": "2",
+      "Abnormal_Event_Rate_Pct": "5.655172413793103"
+    },
+    {
+      "Chronological_Split": "Validation",
+      "Observations": "246",
+      "First_Prediction_Date": "2024-12-31",
+      "Last_Prediction_Date": "2025-12-29",
+      "First_Target_Date": "2025-01-01",
+      "Last_Target_Date": "2025-12-30",
+      "Abnormal_Events": "5",
+      "Above_0_50_Pct": "0",
+      "Above_1_00_Pct": "0",
+      "Abnormal_Event_Rate_Pct": "2.0325203252032518"
+    },
+    {
+      "Chronological_Split": "Test",
+      "Observations": "214",
+      "First_Prediction_Date": "2025-12-31",
+      "Last_Prediction_Date": "2026-11-13",
+      "First_Target_Date": "2026-01-01",
+      "Last_Target_Date": "2026-11-16",
+      "Abnormal_Events": "34",
+      "Above_0_50_Pct": "8",
+      "Above_1_00_Pct": "0",
+      "Abnormal_Event_Rate_Pct": "15.887850467289718"
+    },
+    {
+      "Chronological_Split": "Total",
+      "Observations": "1185",
+      "First_Prediction_Date": "2022-01-11",
+      "Last_Prediction_Date": "2026-11-13",
+      "First_Target_Date": "2022-01-12",
+      "Last_Target_Date": "2026-11-16",
+      "Abnormal_Events": "80",
+      "Above_0_50_Pct": "12",
+      "Above_1_00_Pct": "2",
+      "Abnormal_Event_Rate_Pct": "6.751054852320674"
+    }
+  ],
+  "model_csv": "data/processed/ETF_Modeling_Dataset_Leakage_Safe_2021_to_2026.csv",
+  "audit_xlsx": "outputs/ETF_Label_and_Leakage_Audit_2021_to_2026.xlsx"
+}

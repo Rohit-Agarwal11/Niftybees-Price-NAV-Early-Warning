@@ -1,0 +1,5 @@
+source_id,publisher,dataset_or_publication,identifier,study_coverage,official_url,use_in_project
+S1,National Stock Exchange of India,NIFTYBEES security-wise market data,NIFTYBEES EQ,2021-01-01 to 2026-11-16,https://www.nseindia.com/report-detail/eq_security,Price and liquidity fields
+S2,Association of Mutual Funds in India,NIFTYBEES historical NAV,Scheme 140084 and ISIN INF204KB14I2,2021-01-01 to 2026-11-16,https://www.amfiindia.com/net-asset-value/nav-download,Official NAV and price-NAV dislocation
+S3,NSE Indices,NIFTY 50 historical price-return index,NIFTY 50,2021-01-01 to 2026-11-16,https://www.niftyindices.com/reports,Underlying equity-market control
+S4,National Stock Exchange of India,India VIX historical index data,INDIA VIX,2021-01-01 to 2026-11-16,https://www.nseindia.com/reports-indices-historical-index-data,Volatility and market-stress control

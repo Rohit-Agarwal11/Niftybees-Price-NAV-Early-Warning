@@ -1,0 +1,7 @@
+Block_Length,Reference_Model,Comparator,Observed_PR_AUC_Difference,CI_Lower_95Pct,CI_Upper_95Pct,Bootstrap_Share_Difference_GT_0,Valid_Resamples
+5,Current Gap Ratio,Logistic Regression,0.06400996,-0.01217148,0.16430312,0.94700000,2000
+5,Current Gap Ratio,Decision Tree,0.07772773,0.01949396,0.16757383,0.99500000,2000
+5,Current Gap Ratio,Random Forest,0.04898340,-0.02368591,0.12819578,0.89950000,2000
+10,Current Gap Ratio,Logistic Regression,0.06400996,-0.01117921,0.16076835,0.94900000,2000
+10,Current Gap Ratio,Decision Tree,0.07772773,0.02260564,0.16395957,0.99800000,2000
+10,Current Gap Ratio,Random Forest,0.04898340,-0.02880289,0.12515064,0.88950000,2000

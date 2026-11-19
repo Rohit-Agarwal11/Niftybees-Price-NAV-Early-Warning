@@ -1,0 +1,16 @@
+Feature_Group,Feature_Count,Fold,Train_Rows,Train_Events,Validation_Rows,Validation_Events,Test_Rows,Test_Events,Purged_Train_Rows,Purged_Validation_Rows,Feasible
+Gap Only,6,Fold 1,238,13,243,2,242,26,1,1,True
+Gap Only,6,Fold 2,482,15,242,26,246,5,1,0,True
+Gap Only,6,Fold 3,725,41,246,5,214,34,0,0,True
+Gap History,10,Fold 1,238,13,243,2,242,26,1,1,True
+Gap History,10,Fold 2,482,15,242,26,246,5,1,0,True
+Gap History,10,Fold 3,725,41,246,5,214,34,0,0,True
+Gap + Market Stress,15,Fold 1,238,13,243,2,242,26,1,1,True
+Gap + Market Stress,15,Fold 2,482,15,242,26,246,5,1,0,True
+Gap + Market Stress,15,Fold 3,725,41,246,5,214,34,0,0,True
+Gap + Liquidity,16,Fold 1,238,13,243,2,242,26,1,1,True
+Gap + Liquidity,16,Fold 2,482,15,242,26,246,5,1,0,True
+Gap + Liquidity,16,Fold 3,725,41,246,5,214,34,0,0,True
+Full 25 Predictors,25,Fold 1,238,13,243,2,242,26,1,1,True
+Full 25 Predictors,25,Fold 2,482,15,242,26,246,5,1,0,True
+Full 25 Predictors,25,Fold 3,725,41,246,5,214,34,0,0,True

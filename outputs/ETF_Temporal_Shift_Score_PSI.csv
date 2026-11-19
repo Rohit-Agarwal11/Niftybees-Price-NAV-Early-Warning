@@ -1,0 +1,22 @@
+Fold,Validation_Year,Test_Year,Model,Score_PSI,PSI_Severity
+Fold 1,2023,2024,Historical Prevalence,0,Low
+Fold 1,2023,2024,Current Absolute Gap,0.07860965046689386,Low
+Fold 1,2023,2024,Current Gap Ratio,0.32396262153071365,Large
+Fold 1,2023,2024,Previous Event Persistence,0.26532744330486119,Large
+Fold 1,2023,2024,Logistic Regression,0.38965782928218828,Large
+Fold 1,2023,2024,Decision Tree,0.20973600164857517,Moderate
+Fold 1,2023,2024,Random Forest,0.42481334983116936,Large
+Fold 2,2024,2025,Historical Prevalence,0,Low
+Fold 2,2024,2025,Current Absolute Gap,0.16038551144469232,Moderate
+Fold 2,2024,2025,Current Gap Ratio,0.75670029193595001,Large
+Fold 2,2024,2025,Previous Event Persistence,0.15315975789707414,Moderate
+Fold 2,2024,2025,Logistic Regression,1.5463594823403786,Large
+Fold 2,2024,2025,Decision Tree,0.18874695166846861,Moderate
+Fold 2,2024,2025,Random Forest,0.42027709225146825,Large
+Fold 3,2025,2026,Historical Prevalence,0,Low
+Fold 3,2025,2026,Current Absolute Gap,0.33474303614989198,Large
+Fold 3,2025,2026,Current Gap Ratio,0.58780620087473756,Large
+Fold 3,2025,2026,Previous Event Persistence,0.27612784337387086,Large
+Fold 3,2025,2026,Logistic Regression,0.22076604536850897,Moderate
+Fold 3,2025,2026,Decision Tree,0.57579729624800824,Large
+Fold 3,2025,2026,Random Forest,0.88407448568192681,Large
