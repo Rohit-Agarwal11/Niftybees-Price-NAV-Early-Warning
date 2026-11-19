@@ -71,7 +71,7 @@ data/raw/README.md      Exact download instructions for the original official so
 docs/                   Methodology, source register, data dictionary and model card
 figures/                Figures used in the report
 outputs/                Audit workbooks, row-level predictions and model results
-report/                 Editable final integrated Word report
+paper/                  Submitted PDF
 scripts/                Numbered end-to-end analysis scripts
 notebooks/              Complete Steps 1–8 Jupyter workflow
 ```
@@ -155,28 +155,21 @@ The exact files, fields, identifiers and download instructions are recorded in `
 
 The strongest test ranking came from the simple current-gap rule. Logistic regression produced the best probability estimates among the classifiers. The result supports a transparent risk-screening workflow with drift and calibration monitoring. It does not support automated trading or automatic generalisation to other ETFs.
 
-## Report and supporting evidence
+## Paper and supporting evidence
 
-- `report/ETF_Project_Final_Integrated_Draft.docx`: complete paper with literature comparison, full robustness results, discussion, conclusion and reproducibility statement.
-- `report/ETF_Project_Final_Overleaf_Style.docx`: the same final paper formatted in the compact two-column style of the original Overleaf draft.
-- `report/ETF_Project_Revised_Second_Review_Draft.docx`: editable final second-review draft.
-
-The complete mapping of files created or changed across Steps 1–8 is in `docs/STEPS_1_TO_8_COMPLETE_FILE_INDEX.md`.
-- `outputs/ETF_Label_and_Leakage_Audit_2021_to_2026.xlsx`: label construction and leakage checks.
-- `outputs/ETF_Model_Comparison_Point3.xlsx`: model comparison tables.
-- `outputs/ETF_Model_Comparison_Predictions_2022_to_2026.csv`: row-level scores and alert flags.
-- `outputs/ETF_Block_Bootstrap_Uncertainty.xlsx`: review-ready uncertainty tables and method record.
-- `outputs/ETF_Paired_PR_AUC_Differences.csv`: paired model-comparison intervals.
-- `outputs/ETF_Label_Sensitivity.xlsx`: label feasibility, model rankings and operational results.
-- `outputs/ETF_Label_Sensitivity_Metrics.csv`: fold-level sensitivity results.
-- `outputs/ETF_Alert_Budget_Sensitivity.xlsx`: capacity trade-offs, model comparison and tie audit.
-- `outputs/ETF_Alert_Budget_Fold_Metrics.csv`: fold-level 5%, 10% and 20% alert results.
-- `outputs/ETF_Feature_Ablation.xlsx`: feature definitions, classifier comparisons and incremental-value results.
-- `outputs/ETF_Feature_Ablation_Deltas.csv`: PR-AUC, Brier and alert-precision changes relative to gap history.
-- `outputs/ETF_Temporal_Shift_Model_Metrics.csv`: yearly ranking and score-distribution diagnostics.
-- `outputs/ETF_Temporal_Shift_Calibration.csv`: Brier, calibration intercept/slope and five-bin ECE.
-- `outputs/ETF_Temporal_Shift_Locked_Alerts.csv`: validation-locked cutoff performance and test alert rates.
-- `outputs/model_results.json`: machine-readable metrics, tuning results, calibration and feature explanations.
+- [`paper/main.pdf`](paper/main.pdf): submitted paper.
+- [`notebooks/ETF_Project_Complete_Steps_1_to_8.ipynb`](notebooks/ETF_Project_Complete_Steps_1_to_8.ipynb): complete executed workflow with saved outputs.
+- [`logs/verification_summary.txt`](logs/verification_summary.txt): successful reproduction summary.
+- [`outputs/ETF_Model_Comparison_Predictions_2022_to_2026.csv`](outputs/ETF_Model_Comparison_Predictions_2022_to_2026.csv): row-level holdout scores and alert flags.
+- [`outputs/ETF_Walk_Forward_Predictions.csv`](outputs/ETF_Walk_Forward_Predictions.csv): row-level walk-forward predictions.
+- [`outputs/ETF_Block_Bootstrap_Intervals.csv`](outputs/ETF_Block_Bootstrap_Intervals.csv): block-bootstrap uncertainty intervals.
+- [`outputs/ETF_Paired_PR_AUC_Differences.csv`](outputs/ETF_Paired_PR_AUC_Differences.csv): paired model-comparison intervals.
+- [`outputs/ETF_Label_Sensitivity_Metrics.csv`](outputs/ETF_Label_Sensitivity_Metrics.csv): fold-level label-sensitivity results.
+- [`outputs/ETF_Alert_Budget_Fold_Metrics.csv`](outputs/ETF_Alert_Budget_Fold_Metrics.csv): fold-level 5%, 10% and 20% alert results.
+- [`outputs/ETF_Feature_Ablation_Deltas.csv`](outputs/ETF_Feature_Ablation_Deltas.csv): PR-AUC, Brier-score and alert-precision changes relative to gap history.
+- [`outputs/ETF_Temporal_Shift_Calibration.csv`](outputs/ETF_Temporal_Shift_Calibration.csv): Brier score, calibration intercept/slope and five-bin ECE.
+- [`outputs/ETF_Temporal_Shift_Locked_Alerts.csv`](outputs/ETF_Temporal_Shift_Locked_Alerts.csv): validation-locked cutoff performance and test alert rates.
+- [`outputs/model_results.json`](outputs/model_results.json): machine-readable metrics, tuning results, calibration and feature explanations.
 
 ## AI-use disclosure
 
