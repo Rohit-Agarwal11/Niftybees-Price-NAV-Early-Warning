@@ -1,0 +1,57 @@
+{
+  "analysis": "Validation-tuned histogram gradient boosting",
+  "metrics": [
+    {
+      "Fold": "Fold 1",
+      "Test_Year": 2024,
+      "Observations": 242,
+      "Events": 26,
+      "Selected_Learning_Rate": 0.05,
+      "Selected_Max_Leaf_Nodes": 7,
+      "Selected_L2_Regularization": 1.0,
+      "PR_AUC": 0.18487132580611126,
+      "Brier_Score": 0.11825149376251669,
+      "Alerts": 25,
+      "True_Positives": 3,
+      "Precision": 0.12,
+      "Recall": 0.11538461538461539
+    },
+    {
+      "Fold": "Fold 2",
+      "Test_Year": 2025,
+      "Observations": 246,
+      "Events": 5,
+      "Selected_Learning_Rate": 0.05,
+      "Selected_Max_Leaf_Nodes": 15,
+      "Selected_L2_Regularization": 0.0,
+      "PR_AUC": 0.037210651846330496,
+      "Brier_Score": 0.020679172985059006,
+      "Alerts": 25,
+      "True_Positives": 0,
+      "Precision": 0.0,
+      "Recall": 0.0
+    },
+    {
+      "Fold": "Fold 3",
+      "Test_Year": 2026,
+      "Observations": 214,
+      "Events": 34,
+      "Selected_Learning_Rate": 0.05,
+      "Selected_Max_Leaf_Nodes": 15,
+      "Selected_L2_Regularization": 1.0,
+      "PR_AUC": 0.21205190973200475,
+      "Brier_Score": 0.16561812652563784,
+      "Alerts": 22,
+      "True_Positives": 6,
+      "Precision": 0.2727272727272727,
+      "Recall": 0.17647058823529413
+    }
+  ],
+  "summary": {
+    "Mean_PR_AUC": 0.14471129579481548,
+    "Minimum_PR_AUC": 0.037210651846330496,
+    "Maximum_PR_AUC": 0.21205190973200475,
+    "Mean_Precision_at_10Pct": 0.1309090909090909,
+    "Mean_Recall_at_10Pct": 0.09728506787330317
+  }
+}

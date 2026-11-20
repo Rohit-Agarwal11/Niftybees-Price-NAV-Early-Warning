@@ -15,11 +15,16 @@ steps = [
     "10_alert_budget_sensitivity.py",
     "11_feature_group_ablation.py",
     "12_temporal_shift_diagnostics.py",
+    "15_dislocation_size_analysis.py",
+    "16_nav_timing_stress_test.py",
+    "17_operational_timeline_figure.py",
+    "18_gradient_boosting_comparison.py",
     "04_make_report_figures.py",
     "05_verify_reported_results.py",
     "06_build_second_review_report.py",
     "13_build_final_integrated_report.py",
     "14_build_overleaf_style_report.py",
+    "19_append_robustness_paper_page.py",
 ]
 for step in steps:
     print(f"\n=== Running {step} ===", flush=True)

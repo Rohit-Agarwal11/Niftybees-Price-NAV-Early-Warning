@@ -16,5 +16,10 @@
   "fixed_label_thresholds_pct": [0.50, 1.00],
   "bootstrap_resamples": 2000,
   "bootstrap_block_lengths": [5, 10],
+  "dislocation_size_bootstrap_resamples": 5000,
+  "nav_timing_stress_delay_trading_days": 1,
+  "gradient_boosting_learning_rates": [0.05, 0.10],
+  "gradient_boosting_max_leaf_nodes": [7, 15],
+  "gradient_boosting_l2_regularization": [0.0, 1.0],
   "random_seed": 42
 }

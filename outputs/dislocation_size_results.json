@@ -1,0 +1,42 @@
+{
+  "analysis": "Next-session absolute dislocation size by primary 10% gap-ratio alert",
+  "unit": "basis points; one percentage point equals 100 bps",
+  "summary": [
+    {
+      "Group": "Not alerted",
+      "Observations": 630,
+      "Events": 46,
+      "Mean_Abs_Dislocation_bps": 12.489355079365076,
+      "Median_Abs_Dislocation_bps": 11.325000000000001,
+      "P90_Abs_Dislocation_bps": 21.175880000000003,
+      "P95_Abs_Dislocation_bps": 26.610134999999982
+    },
+    {
+      "Group": "Alerted",
+      "Observations": 72,
+      "Events": 19,
+      "Mean_Abs_Dislocation_bps": 18.48765972222222,
+      "Median_Abs_Dislocation_bps": 17.195699999999995,
+      "P90_Abs_Dislocation_bps": 36.55692999999999,
+      "P95_Abs_Dislocation_bps": 43.344770000000004
+    }
+  ],
+  "effect": {
+    "Mean_Difference_bps": 5.998304642857143,
+    "Mean_Difference_95Pct_CI": [
+      2.843130490079369,
+      9.449332969246031
+    ],
+    "Median_Difference_bps": 5.870699999999994,
+    "Median_Difference_95Pct_CI": [
+      1.827932499999996,
+      8.056207500000001
+    ],
+    "Probability_Mean_Difference_Positive": 0.9998
+  },
+  "bootstrap": {
+    "resamples": 5000,
+    "seed": 42,
+    "method": "stratified nonparametric bootstrap"
+  }
+}

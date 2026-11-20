@@ -31,6 +31,13 @@ Chronological training: 2022–2024 targets. Validation: 2025 targets. Untouched
 
 Random forest was validation-selected, but the current-gap rule achieved the strongest test PR-AUC. Logistic regression had the best test Brier score among the classifiers. This makes the transparent rule the preferred ranking benchmark and logistic regression the preferred probability model.
 
+At the 10% gap-ratio budget, alerted dates have a 6.00-bps larger mean
+next-session absolute dislocation than non-alerted dates (bootstrap 95% CI:
+2.84–9.45 bps). When the current official NAV is delayed by one trading day,
+the gap ratio and random forest are effectively tied and overall performance
+falls. Timely NAV availability is therefore a material operating assumption.
+Supplementary histogram gradient boosting does not improve the main ranking.
+
 ## Monitoring requirements
 
 - Track event prevalence, alert volume and score distribution.
@@ -38,6 +45,8 @@ Random forest was validation-selected, but the current-gap rule achieved the str
 - Review special trading sessions and extreme values manually.
 - Retrain only after an approved drift or scheduled-review trigger.
 - Preserve an untouched future holdout for each material model update.
+- Record the actual NAV publication timestamp and activate the delayed-NAV
+  fallback whenever the current official NAV is unavailable.
 
 ## Ethical and practical considerations
 

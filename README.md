@@ -36,6 +36,18 @@ Adding NIFTY 50 and India VIX variables raises logistic-regression mean walk-for
 
 Abnormal-event prevalence changes from **10.7% in 2024 to 2.0% in 2025 and 15.9% in 2026**. Median validation-to-test predictor PSI is 0.141, 0.191 and 0.222, while validation-locked 10% cutoffs produce only 0.0%–5.3% alerts in 2025 but 22.9%–39.3% in 2026. Model ranking and probability calibration change materially with these regimes, supporting H4 and favouring capacity-based ranking with ongoing drift monitoring. Complete results are in `docs/TEMPORAL_SHIFT_RESULTS.md`.
 
+### Operational magnitude and robustness findings
+
+At the primary 10% gap-ratio budget, alerted dates have a mean next-session
+absolute dislocation of **18.49 bps**, compared with **12.49 bps** on
+non-alerted dates. The difference is **6.00 bps** with a stratified-bootstrap
+95% interval of **2.84–9.45 bps**. Under a deliberately adverse one-trading-day
+NAV delay, performance falls and the gap ratio (**0.160 mean PR-AUC**) is
+effectively tied with random forest (**0.161**), showing that timely official
+NAV availability is material. A validation-tuned histogram gradient-boosting
+model reaches only **0.145 mean PR-AUC**, below the original gap ratio's
+**0.233**. Complete results are in `docs/ROBUSTNESS_AND_OPERATIONAL_RESULTS.md`.
+
 ## Final sample
 
 | Stage | Observations |
@@ -50,7 +62,12 @@ Study period: **1 January 2021 to 16 November 2026**.
 
 ## Models and headline results
 
-The code compares a transparent current-gap rule with logistic regression, a bounded decision tree and a random forest. Hyperparameters are selected using 2025 validation data. The 2026 test set remains untouched until selection is complete.
+The primary code compares a transparent current-gap rule with logistic
+regression, a bounded decision tree and a random forest. A supplementary,
+validation-tuned histogram gradient-boosting model closes the original
+proposal comparison without changing the frozen label or folds. Hyperparameters
+are selected using prior-year validation data; each subsequent test fold remains
+untouched until selection is complete.
 
 | Model | Test PR-AUC | Test ROC-AUC | Test Brier score |
 |---|---:|---:|---:|
@@ -104,18 +121,19 @@ The final command executes these steps:
 
 1. Merge and audit the four cleaned official inputs.
 2. Construct the rolling 252-observation label and leakage-safe features.
-3. Tune and compare the three classifiers using chronological validation.
+3. Tune and compare the three primary classifiers using chronological validation.
 4. Recreate the report figures.
 5. Run the prespecified walk-forward and paired block-bootstrap analyses.
 6. Test label sensitivity, alert budgets, feature groups and temporal shift.
-7. Verify the reported counts and metrics and rebuild both report drafts.
+7. Test operational dislocation magnitude, delayed-NAV timing and gradient boosting.
+8. Verify the reported counts and metrics and rebuild both report drafts.
 
-The same workflow is available as `notebooks/ETF_Project_Complete_Steps_1_to_8.ipynb`. Its cells reproduce all 14 numbered scripts in execution order and rebuild the final reports.
+The same workflow is available as `notebooks/ETF_Project_Complete_Steps_1_to_8.ipynb`. Its cells reproduce all numbered scripts in execution order and rebuild the final reports.
 
 A successful run ends with:
 
 ```text
-PASS: all data counts, event counts, split counts and reported test results match the second-review draft.
+PASS: all data counts, split counts, reported metrics and added robustness results match the final paper.
 ```
 
 ## Prediction and label design
@@ -179,6 +197,9 @@ The strongest test ranking came from the simple current-gap rule. Logistic regre
 - [`outputs/ETF_Feature_Ablation_Deltas.csv`](outputs/ETF_Feature_Ablation_Deltas.csv): PR-AUC, Brier-score and alert-precision changes relative to gap history.
 - [`outputs/ETF_Temporal_Shift_Calibration.csv`](outputs/ETF_Temporal_Shift_Calibration.csv): Brier score, calibration intercept/slope and five-bin ECE.
 - [`outputs/ETF_Temporal_Shift_Locked_Alerts.csv`](outputs/ETF_Temporal_Shift_Locked_Alerts.csv): validation-locked cutoff performance and test alert rates.
+- [`outputs/ETF_Dislocation_Size_by_Alert.csv`](outputs/ETF_Dislocation_Size_by_Alert.csv): next-session gap magnitude on alerted and non-alerted dates.
+- [`outputs/ETF_NAV_Timing_Stress_Summary.csv`](outputs/ETF_NAV_Timing_Stress_Summary.csv): walk-forward results when only the preceding trading date's NAV is available.
+- [`outputs/ETF_Gradient_Boosting_Metrics.csv`](outputs/ETF_Gradient_Boosting_Metrics.csv): validation-tuned histogram gradient-boosting results.
 - [`outputs/model_results.json`](outputs/model_results.json): machine-readable metrics, tuning results, calibration and feature explanations.
 
 ### Paper-table reproduction map
@@ -190,6 +211,8 @@ The strongest test ranking came from the simple current-gap rule. Logistic regre
 | Table III — test PR-AUC | `outputs/ETF_Walk_Forward_Metrics.csv` |
 | Table IV — pooled alert precision | `outputs/ETF_Alert_Budget_Summary.csv` |
 | Table V — standardized logistic coefficients | `outputs/ETF_Logistic_Standardized_Coefficients.csv` |
+| Table VI — dislocation magnitude | `outputs/ETF_Dislocation_Size_by_Alert.csv` and `outputs/dislocation_size_results.json` |
+| Table VII — delayed-NAV and boosting robustness | `outputs/ETF_NAV_Timing_Stress_Summary.csv` and `outputs/ETF_Gradient_Boosting_Metrics.csv` |
 
 Table II is a walk-forward split audit. It is not sourced from the feature-ablation outputs.
 

@@ -51,4 +51,21 @@ assert budget["Current Gap Rule"]["Alerts"] == 22
 assert budget["Current Gap Rule"]["True_Positives"] == 8
 assert abs(budget["Current Gap Rule"]["Precision_at_Budget"] - 8 / 22) < 1e-12
 assert results["selected_model"] == "Random Forest"
-print("PASS: all data counts, event counts, split counts and reported test results match the second-review draft.")
+
+# Additional final-paper robustness evidence.
+size = pd.read_csv(OUT / "ETF_Dislocation_Size_by_Alert.csv").set_index("Group")
+assert int(size.loc["Alerted", "Observations"]) == 72
+assert int(size.loc["Alerted", "Events"]) == 19
+assert round(size.loc["Alerted", "Mean_Abs_Dislocation_bps"], 2) == 18.49
+assert round(size.loc["Not alerted", "Mean_Abs_Dislocation_bps"], 2) == 12.49
+size_json = json.loads((OUT / "dislocation_size_results.json").read_text(encoding="utf-8"))
+assert round(size_json["effect"]["Mean_Difference_bps"], 2) == 6.00
+assert [round(x, 2) for x in size_json["effect"]["Mean_Difference_95Pct_CI"]] == [2.84, 9.45]
+
+nav_stress = pd.read_csv(OUT / "ETF_NAV_Timing_Stress_Summary.csv").set_index("Model")
+assert round(nav_stress.loc["Current Gap Ratio", "Mean_PR_AUC"], 3) == 0.160
+assert round(nav_stress.loc["Random Forest", "Mean_PR_AUC"], 3) == 0.161
+boost = json.loads((OUT / "gradient_boosting_results.json").read_text(encoding="utf-8"))
+assert round(boost["summary"]["Mean_PR_AUC"], 3) == 0.145
+
+print("PASS: all data counts, split counts, reported metrics and added robustness results match the final paper.")

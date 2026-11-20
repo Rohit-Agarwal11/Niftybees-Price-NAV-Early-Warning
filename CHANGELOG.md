@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-11-20 — Operational value and timing robustness
+
+- Added a next-session dislocation-size comparison for alerted and non-alerted
+  dates with 5,000-resample bootstrap intervals.
+- Added a one-trading-day delayed-NAV stress test that rebuilds NAV-dependent
+  features and retunes models within the frozen walk-forward design.
+- Added an operational information-timeline figure and annual workload
+  interpretation.
+- Added a validation-tuned histogram gradient-boosting comparator to close the
+  original proposal's planned-model gap.
+
 ## 2026-11-20 — Explainability and audit revision
 
 - Defined the current gap-to-threshold ratio as the primary explainable warning

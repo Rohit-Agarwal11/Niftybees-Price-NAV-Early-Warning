@@ -1,5 +1,6 @@
 Verification date: 2026-11-20
-PASS: all data counts, event counts, split counts and reported test results match the final paper.
-PASS: final PDF has four pages, no placeholders, 24 clickable links, uniform references [1]-[16], and Table V precedes Sections VII-VIII.
-PASS: the 2026 fold is identified as the fixed holdout; label-threshold event counts and alert-rate scope are explicit.
-PASS: coefficient stability qualification, pinned versions, runtime and paper-to-output mappings are present.
+PASS: all data counts, split counts, reported metrics and added robustness results match the final paper.
+PASS: alerted versus non-alerted mean next-session gap is 18.49 versus 12.49 bps; mean difference 6.00 bps (95% bootstrap interval 2.84–9.45).
+PASS: one-day delayed-NAV mean PR-AUC is 0.160 for the gap ratio and 0.161 for random forest; the paper reports the effective tie without overclaiming.
+PASS: validation-tuned histogram gradient boosting mean PR-AUC is 0.145 and does not improve the headline result.
+PASS: final PDF has five pages, no placeholders, 24 clickable links, and reproducibility mappings through Tables VI–VII.
