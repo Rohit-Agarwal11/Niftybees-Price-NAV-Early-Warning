@@ -13,6 +13,10 @@
   appearance.
 - Added pinned-version, runtime and paper-table reproduction notes.
 - Repositioned the coefficient table before reproducibility and conclusion.
+- Clarified that the 2026 fold is the fixed holdout rather than an additional
+  experiment.
+- Scoped temporal alert-rate ranges to the gap score and three classifiers.
+- Added the missing page range for Tripathi and Sethi (2022).
 
 ## 2026-11-19 — Reproducible final-draft package
 

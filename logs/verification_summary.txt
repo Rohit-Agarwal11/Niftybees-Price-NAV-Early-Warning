@@ -1,4 +1,5 @@
 Verification date: 2026-11-20
 PASS: all data counts, event counts, split counts and reported test results match the final paper.
 PASS: final PDF has four pages, no placeholders, 24 clickable links, uniform references [1]-[16], and Table V precedes Sections VII-VIII.
-PASS: label-threshold event counts, coefficient stability qualification, pinned versions, runtime and table-to-output mappings are disclosed.
+PASS: the 2026 fold is identified as the fixed holdout; label-threshold event counts and alert-rate scope are explicit.
+PASS: coefficient stability qualification, pinned versions, runtime and paper-to-output mappings are present.
