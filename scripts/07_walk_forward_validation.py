@@ -36,6 +36,7 @@ RESULTS_JSON = OUT / "walk_forward_results.json"
 METRICS_CSV = OUT / "ETF_Walk_Forward_Metrics.csv"
 PREDICTIONS_CSV = OUT / "ETF_Walk_Forward_Predictions.csv"
 TUNING_CSV = OUT / "ETF_Walk_Forward_Tuning.csv"
+COEFFICIENTS_CSV = OUT / "ETF_Logistic_Standardized_Coefficients.csv"
 
 df = pd.read_csv(INPUT, parse_dates=["Prediction_Date", "Target_Date"])
 features = [c for c in df.columns if c.startswith("X_")]
@@ -124,7 +125,7 @@ def metric_row(fold, model, split, y, score, probability=False):
     return row
 
 
-metric_rows, tuning_rows, prediction_parts, fold_audit = [], [], [], []
+metric_rows, tuning_rows, coefficient_rows, prediction_parts, fold_audit = [], [], [], [], []
 
 for spec in folds:
     fold = spec["Fold"]
@@ -175,6 +176,22 @@ for spec in folds:
         tuning_rows.append(row); candidates.append((row, model))
     best_row, log_model = max(candidates, key=lambda x: (x[0]["Validation_PR_AUC"], -x[0]["Validation_Brier"]))
     best["Logistic Regression"] = best_row["Parameters"]
+
+    # Coefficients are on standardized training features because the selected
+    # logistic model is a StandardScaler -> LogisticRegression pipeline.
+    # Saving every fold makes the paper's explanation table reproducible.
+    fold_coefficients = log_model.named_steps["model"].coef_[0]
+    coefficient_order = np.argsort(-np.abs(fold_coefficients))
+    for rank, feature_index in enumerate(coefficient_order, start=1):
+        coefficient_rows.append({
+            "Fold": fold,
+            "Test_Year": spec["Test_Year"],
+            "Selected_C": float(best_row["Parameters"].split("=")[1]),
+            "Feature": features[feature_index],
+            "Standardized_Coefficient": float(fold_coefficients[feature_index]),
+            "Absolute_Coefficient": float(abs(fold_coefficients[feature_index])),
+            "Absolute_Rank_within_Fold": rank,
+        })
 
     # Bounded decision tree.
     candidates = []
@@ -255,6 +272,7 @@ for spec in folds:
 metrics = pd.DataFrame(metric_rows)
 tuning = pd.DataFrame(tuning_rows)
 predictions = pd.concat(prediction_parts, ignore_index=True) if prediction_parts else pd.DataFrame()
+coefficients = pd.DataFrame(coefficient_rows)
 
 test_metrics = metrics[metrics["Split"].eq("Test")].copy()
 summary = test_metrics.groupby("Model", as_index=False).agg(
@@ -273,7 +291,7 @@ if not test_metrics.empty:
     win_counts = winners["Model"].value_counts()
     summary["Fold_Wins"] = summary["Model"].map(win_counts).fillna(0).astype(int)
 
-for frame in [metrics, tuning, predictions]:
+for frame in [metrics, tuning, predictions, coefficients]:
     for col in ["Prediction_Date", "Target_Date"]:
         if col in frame:
             frame[col] = pd.to_datetime(frame[col]).dt.strftime("%Y-%m-%d")
@@ -282,6 +300,7 @@ metrics.to_csv(METRICS_CSV, index=False, float_format="%.17g")
 tuning.to_csv(TUNING_CSV, index=False, float_format="%.17g")
 # Preserve near-tied tree probabilities so recomputed ranking metrics are exact.
 predictions.to_csv(PREDICTIONS_CSV, index=False, float_format="%.17g")
+coefficients.to_csv(COEFFICIENTS_CSV, index=False, float_format="%.17g")
 
 metrics_clean = metrics.replace([np.inf, -np.inf], np.nan)
 summary_clean = summary.replace([np.inf, -np.inf], np.nan)
@@ -292,6 +311,7 @@ result = {
     "test_stability_summary": summary_clean.astype(object).where(pd.notna(summary_clean), None).to_dict("records"),
     "tuning_csv": str(TUNING_CSV.relative_to(ROOT)),
     "predictions_csv": str(PREDICTIONS_CSV.relative_to(ROOT)),
+    "standardized_logistic_coefficients_csv": str(COEFFICIENTS_CSV.relative_to(ROOT)),
 }
 RESULTS_JSON.write_text(json.dumps(result, indent=2, default=str), encoding="utf-8")
 

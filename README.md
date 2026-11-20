@@ -22,7 +22,7 @@ A paired moving-block bootstrap with 2,000 valid resamples gives the gap ratio a
 
 ### Label-sensitivity finding
 
-The exact PR-AUC winner changes with the rolling event threshold: random forest leads at the 90th percentile by **0.010**, the gap ratio leads at the primary 95th percentile, and random forest leads the sparse 97.5th-percentile case by **0.002**. The gap ratio nevertheless has higher mean precision, recall and lift at the 10% alert budget under all three rolling definitions. Fixed 0.50% and 1.00% labels contain only 12 and 2 events and are infeasible for the prespecified walk-forward comparison. Complete results are in `docs/LABEL_SENSITIVITY_RESULTS.md`.
+The exact PR-AUC winner changes with the rolling event threshold: random forest leads at the 90th percentile by **0.010**, the gap ratio leads at the primary 95th percentile, and random forest leads the sparse 97.5th-percentile case by **0.002**. That final margin should be treated as noise because the 2025 test fold contains only one positive event under the 97.5th-percentile label. The gap ratio nevertheless has higher mean precision, recall and lift at the 10% alert budget under all three rolling definitions. Fixed 0.50% and 1.00% labels contain only 12 and 2 events and are infeasible for the prespecified walk-forward comparison. Complete results are in `docs/LABEL_SENSITIVITY_RESULTS.md`.
 
 ### Alert-budget finding
 
@@ -79,6 +79,13 @@ notebooks/              Complete Steps 1–8 Jupyter workflow
 ## Quick reproduction
 
 Python 3.11 or 3.12 is recommended.
+
+Exact numerical reproduction requires the package versions pinned in
+`requirements.txt`; newer library versions can change floating-point results,
+tie handling or model defaults. The full `run_all.py` workflow retunes all
+models across the walk-forward, label-sensitivity and feature-ablation grids,
+so expect a runtime of tens of minutes on a typical laptop. Runtime varies with
+CPU core count and available memory.
 
 ```bash
 python -m venv .venv
@@ -162,6 +169,8 @@ The strongest test ranking came from the simple current-gap rule. Logistic regre
 - [`logs/verification_summary.txt`](logs/verification_summary.txt): successful reproduction summary.
 - [`outputs/ETF_Model_Comparison_Predictions_2022_to_2026.csv`](outputs/ETF_Model_Comparison_Predictions_2022_to_2026.csv): row-level holdout scores and alert flags.
 - [`outputs/ETF_Walk_Forward_Predictions.csv`](outputs/ETF_Walk_Forward_Predictions.csv): row-level walk-forward predictions.
+- [`outputs/ETF_Logistic_Standardized_Coefficients.csv`](outputs/ETF_Logistic_Standardized_Coefficients.csv): fold-specific standardized coefficients from each selected logistic model.
+- [`docs/EXPLAINABILITY_RESULTS.md`](docs/EXPLAINABILITY_RESULTS.md): interpretation limits and the paper's coefficient-table audit trail.
 - [`outputs/ETF_Block_Bootstrap_Intervals.csv`](outputs/ETF_Block_Bootstrap_Intervals.csv): block-bootstrap uncertainty intervals.
 - [`outputs/ETF_Paired_PR_AUC_Differences.csv`](outputs/ETF_Paired_PR_AUC_Differences.csv): paired model-comparison intervals.
 - [`outputs/ETF_Label_Sensitivity_Metrics.csv`](outputs/ETF_Label_Sensitivity_Metrics.csv): fold-level label-sensitivity results.

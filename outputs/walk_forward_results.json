@@ -955,5 +955,6 @@
     }
   ],
   "tuning_csv": "outputs/ETF_Walk_Forward_Tuning.csv",
-  "predictions_csv": "outputs/ETF_Walk_Forward_Predictions.csv"
+  "predictions_csv": "outputs/ETF_Walk_Forward_Predictions.csv",
+  "standardized_logistic_coefficients_csv": "outputs/ETF_Logistic_Standardized_Coefficients.csv"
 }

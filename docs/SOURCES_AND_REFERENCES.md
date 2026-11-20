@@ -25,3 +25,7 @@
 13. Künsch, H. R. (1989). The jackknife and the bootstrap for general stationary observations. *The Annals of Statistics, 17*(3), 1217–1241. https://doi.org/10.1214/aos/1176347265
 14. Gneiting, T., & Raftery, A. E. (2007). Strictly proper scoring rules, prediction, and estimation. *Journal of the American Statistical Association, 102*(477), 359–378. https://doi.org/10.1198/016214506000001437
 15. Niculescu-Mizil, A., & Caruana, R. (2005). Predicting good probabilities with supervised learning. *Proceedings of the 22nd International Conference on Machine Learning*, 625–632. https://doi.org/10.1145/1102351.1102430
+16. Shanmugham, R., & Zabiulla. (2012). Pricing Efficiency of Nifty BeES in Bullish and Bearish Markets. *Global Business Review, 13*(1), 109–121. https://doi.org/10.1177/097215091101300107
+17. Tripathi, V., & Sethi, A. (2022). An Evaluation of the Tracking Performance of Exchange Traded Funds (ETFs): The Case of Indian Index ETFs. *Vision: The Journal of Business Perspective, 26*(3). https://doi.org/10.1177/0972262921996485
+18. Lakshmi, V. D. M. V. (2022). Do Exchange Traded Funds in India Have Tracking and Pricing Efficiency? *Advances in Decision Sciences, 26*(2), 1–25. https://doi.org/10.47654/v26y2022i2p1-25
+19. Dahiya, M., & Warne, D. P. (2026). Arbitrage opportunities in exchange traded funds: evidence from Nippon Life India Asset Management Limited. *International Journal of Diplomacy and Economy, 12*(2), 219–233. https://doi.org/10.1504/IJDIPE.2026.152677
