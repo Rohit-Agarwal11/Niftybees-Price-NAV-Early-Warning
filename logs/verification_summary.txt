@@ -1,11 +1,4 @@
-Verification date: 2026-11-19
-Workflow: Complete notebook executed sequentially from repository root.
-Result: All 15 code cells completed without exception.
-Verified assertions:
-- 1,456 market rows
-- 1,451 official NAV rows
-- 1,446 complete analysis rows
-- 1,185 leakage-safe modeling rows
-- 80 abnormal next-day events
-- Chronological split counts and 2026 holdout metrics match the paper
-The notebook contains saved console outputs for reviewer inspection.
+Verification date: 2026-11-20
+PASS: all data counts, event counts, split counts and reported test results match the final paper.
+PASS: final PDF has four pages, no placeholders, 24 clickable links, uniform references [1]-[16], and Table V precedes Sections VII-VIII.
+PASS: label-threshold event counts, coefficient stability qualification, pinned versions, runtime and table-to-output mappings are disclosed.

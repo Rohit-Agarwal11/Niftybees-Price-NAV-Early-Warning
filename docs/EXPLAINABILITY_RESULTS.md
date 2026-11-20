@@ -34,3 +34,15 @@ ranking, while it does not establish a causal mechanism.
 
 The complete audit table is
 `outputs/ETF_Logistic_Standardized_Coefficients.csv`.
+
+## Stability qualification
+
+Coefficient rank in one regularized fold is not evidence of out-of-sample
+feature value. The current gap-to-threshold ratio is the largest absolute
+logistic coefficient in the 2024 and 2025 folds, while log turnover ranks only
+23rd in 2024. In the 2026 fold, turnover ranks first and the gap ratio ranks
+ninth. The validation-selected regularization values also change materially
+across folds (`C = 0.01`, `10`, and `0.1`). This instability is consistent with
+the feature-ablation conclusion: liquidity proxies can receive large
+conditional coefficients in one fitted model without delivering consistent
+incremental out-of-time PR-AUC.

@@ -165,6 +165,7 @@ The strongest test ranking came from the simple current-gap rule. Logistic regre
 ## Paper and supporting evidence
 
 - [`paper/main.pdf`](paper/main.pdf): submitted paper.
+- [`CHANGELOG.md`](CHANGELOG.md): dated record of repository and paper revisions.
 - [`notebooks/ETF_Project_Complete_Steps_1_to_8.ipynb`](notebooks/ETF_Project_Complete_Steps_1_to_8.ipynb): complete executed workflow with saved outputs.
 - [`logs/verification_summary.txt`](logs/verification_summary.txt): successful reproduction summary.
 - [`outputs/ETF_Model_Comparison_Predictions_2022_to_2026.csv`](outputs/ETF_Model_Comparison_Predictions_2022_to_2026.csv): row-level holdout scores and alert flags.
@@ -179,6 +180,18 @@ The strongest test ranking came from the simple current-gap rule. Logistic regre
 - [`outputs/ETF_Temporal_Shift_Calibration.csv`](outputs/ETF_Temporal_Shift_Calibration.csv): Brier score, calibration intercept/slope and five-bin ECE.
 - [`outputs/ETF_Temporal_Shift_Locked_Alerts.csv`](outputs/ETF_Temporal_Shift_Locked_Alerts.csv): validation-locked cutoff performance and test alert rates.
 - [`outputs/model_results.json`](outputs/model_results.json): machine-readable metrics, tuning results, calibration and feature explanations.
+
+### Paper-table reproduction map
+
+| Paper table | Reproducible repository evidence |
+|---|---|
+| Table I — source reconciliation | `outputs/modeling_dataset_summary.json` and the processed data audits |
+| Table II — walk-forward folds and validation events | `outputs/walk_forward_results.json` (`fold_audit`) and `outputs/ETF_Walk_Forward_Metrics.csv` |
+| Table III — test PR-AUC | `outputs/ETF_Walk_Forward_Metrics.csv` |
+| Table IV — pooled alert precision | `outputs/ETF_Alert_Budget_Summary.csv` |
+| Table V — standardized logistic coefficients | `outputs/ETF_Logistic_Standardized_Coefficients.csv` |
+
+Table II is a walk-forward split audit. It is not sourced from the feature-ablation outputs.
 
 ## AI-use disclosure
 
